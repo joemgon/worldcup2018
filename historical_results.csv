@@ -1,0 +1,321 @@
+edition,datetime,date,match_no,round,home_team,home_code,home_score,score,away_score,away_team,away_code,tiebreak_long,tiebreak_short,winner,home_result,away_result,home_rank,away_rank,result_type,rank_diff,score_diff
+brazil2014,12 Jun 2014 - 17:00 Local time,12 Jun 2014,Match 1,Group A,Brazil,BRA,3,3-1,1,Croatia,CRO, , ,Brazil,W,L,11,18,expected,7,2
+brazil2014,13 Jun 2014 - 13:00 Local time,13 Jun 2014,Match 2,Group A,Mexico,MEX,1,1-0,0,Cameroon,CMR, , ,Mexico,W,L,24,59,expected,35,1
+brazil2014,13 Jun 2014 - 16:00 Local time,13 Jun 2014,Match 3,Group B,Spain,ESP,1,1-5,5,Netherlands,NED, , ,Netherlands,L,W,1,8,upset,7,4
+brazil2014,13 Jun 2014 - 18:00 Local time,13 Jun 2014,Match 4,Group B,Chile,CHI,3,3-1,1,Australia,AUS, , ,Chile,W,L,12,57,expected,45,2
+brazil2014,14 Jun 2014 - 13:00 Local time,14 Jun 2014,Match 5,Group C,Colombia,COL,3,3-0,0,Greece,GRE, , ,Colombia,W,L,4,15,expected,11,3
+brazil2014,14 Jun 2014 - 16:00 Local time,14 Jun 2014,Match 7,Group D,Uruguay,URU,1,1-3,3,Costa Rica,CRC, , ,Costa Rica,L,W,6,31,upset,25,2
+brazil2014,14 Jun 2014 - 18:00 Local time,14 Jun 2014,Match 8,Group D,England,ENG,1,1-2,2,Italy,ITA, , ,Italy,L,W,10,9,expected,1,1
+brazil2014,14 Jun 2014 - 22:00 Local time,14 Jun 2014,Match 6,Group C,Côte d'Ivoire,CIV,2,2-1,1,Japan,JPN, , ,Côte d'Ivoire,W,L,17,44,expected,27,1
+brazil2014,15 Jun 2014 - 13:00 Local time,15 Jun 2014,Match 9,Group E,Switzerland,SUI,2,2-1,1,Ecuador,ECU, , ,Switzerland,W,L,7,22,expected,15,1
+brazil2014,15 Jun 2014 - 16:00 Local time,15 Jun 2014,Match 10,Group E,France,FRA,3,3-0,0,Honduras,HON, , ,France,W,L,21,34,expected,13,3
+brazil2014,15 Jun 2014 - 19:00 Local time,15 Jun 2014,Match 11,Group F,Argentina,ARG,2,2-1,1,Bosnia and Herzegovina,BIH, , ,Argentina,W,L,3,16,expected,13,1
+brazil2014,16 Jun 2014 - 13:00 Local time,16 Jun 2014,Match 13,Group G,Germany,GER,4,4-0,0,Portugal,POR, , ,Germany,W,L,2,14,expected,12,4
+brazil2014,16 Jun 2014 - 16:00 Local time,16 Jun 2014,Match 12,Group F,IR Iran,IRN,0,0-0,0,Nigeria,NGA, , ,NA,D,D,49,33,upset,16,0
+brazil2014,16 Jun 2014 - 19:00 Local time,16 Jun 2014,Match 14,Group G,Ghana,GHA,1,1-2,2,USA,USA, , ,USA,L,W,23,13,expected,10,1
+brazil2014,17 Jun 2014 - 13:00 Local time,17 Jun 2014,Match 15,Group H,Belgium,BEL,2,2-1,1,Algeria,ALG, , ,Belgium,W,L,5,32,expected,27,1
+brazil2014,17 Jun 2014 - 16:00 Local time,17 Jun 2014,Match 17,Group A,Brazil,BRA,0,0-0,0,Mexico,MEX, , ,NA,D,D,11,24,expected,13,0
+brazil2014,17 Jun 2014 - 18:00 Local time,17 Jun 2014,Match 16,Group H,Russia,RUS,1,1-1,1,Korea Republic,KOR, , ,NA,D,D,19,56,expected,37,0
+brazil2014,18 Jun 2014 - 13:00 Local time,18 Jun 2014,Match 20,Group B,Australia,AUS,2,2-3,3,Netherlands,NED, , ,Netherlands,L,W,57,8,expected,49,1
+brazil2014,18 Jun 2014 - 16:00 Local time,18 Jun 2014,Match 19,Group B,Spain,ESP,0,0-2,2,Chile,CHI, , ,Chile,L,W,1,12,upset,11,2
+brazil2014,18 Jun 2014 - 18:00 Local time,18 Jun 2014,Match 18,Group A,Cameroon,CMR,0,0-4,4,Croatia,CRO, , ,Croatia,L,W,59,18,expected,41,4
+brazil2014,19 Jun 2014 - 13:00 Local time,19 Jun 2014,Match 21,Group C,Colombia,COL,2,2-1,1,Côte d'Ivoire,CIV, , ,Colombia,W,L,4,17,expected,13,1
+brazil2014,19 Jun 2014 - 16:00 Local time,19 Jun 2014,Match 23,Group D,Uruguay,URU,2,2-1,1,England,ENG, , ,Uruguay,W,L,6,10,expected,4,1
+brazil2014,19 Jun 2014 - 19:00 Local time,19 Jun 2014,Match 22,Group C,Japan,JPN,0,0-0,0,Greece,GRE, , ,NA,D,D,44,15,upset,29,0
+brazil2014,20 Jun 2014 - 13:00 Local time,20 Jun 2014,Match 24,Group D,Italy,ITA,0,0-1,1,Costa Rica,CRC, , ,Costa Rica,L,W,9,31,upset,22,1
+brazil2014,20 Jun 2014 - 16:00 Local time,20 Jun 2014,Match 25,Group E,Switzerland,SUI,2,2-5,5,France,FRA, , ,France,L,W,7,21,upset,14,3
+brazil2014,20 Jun 2014 - 19:00 Local time,20 Jun 2014,Match 26,Group E,Honduras,HON,1,1-2,2,Ecuador,ECU, , ,Ecuador,L,W,34,22,expected,12,1
+brazil2014,21 Jun 2014 - 13:00 Local time,21 Jun 2014,Match 27,Group F,Argentina,ARG,1,1-0,0,IR Iran,IRN, , ,Argentina,W,L,3,49,expected,46,1
+brazil2014,21 Jun 2014 - 16:00 Local time,21 Jun 2014,Match 29,Group G,Germany,GER,2,2-2,2,Ghana,GHA, , ,NA,D,D,2,23,expected,21,0
+brazil2014,21 Jun 2014 - 18:00 Local time,21 Jun 2014,Match 28,Group F,Nigeria,NGA,1,1-0,0,Bosnia and Herzegovina,BIH, , ,Nigeria,W,L,33,16,upset,17,1
+brazil2014,22 Jun 2014 - 13:00 Local time,22 Jun 2014,Match 31,Group H,Belgium,BEL,1,1-0,0,Russia,RUS, , ,Belgium,W,L,5,19,expected,14,1
+brazil2014,22 Jun 2014 - 16:00 Local time,22 Jun 2014,Match 32,Group H,Korea Republic,KOR,2,2-4,4,Algeria,ALG, , ,Algeria,L,W,56,32,expected,24,2
+brazil2014,22 Jun 2014 - 18:00 Local time,22 Jun 2014,Match 30,Group G,USA,USA,2,2-2,2,Portugal,POR, , ,NA,D,D,13,14,expected,1,0
+brazil2014,23 Jun 2014 - 13:00 Local time,23 Jun 2014,Match 35,Group B,Australia,AUS,0,0-3,3,Spain,ESP, , ,Spain,L,W,57,1,expected,56,3
+brazil2014,23 Jun 2014 - 13:00 Local time,23 Jun 2014,Match 36,Group B,Netherlands,NED,2,2-0,0,Chile,CHI, , ,Netherlands,W,L,8,12,expected,4,2
+brazil2014,23 Jun 2014 - 17:00 Local time,23 Jun 2014,Match 33,Group A,Cameroon,CMR,1,1-4,4,Brazil,BRA, , ,Brazil,L,W,59,11,expected,48,3
+brazil2014,23 Jun 2014 - 17:00 Local time,23 Jun 2014,Match 34,Group A,Croatia,CRO,1,1-3,3,Mexico,MEX, , ,Mexico,L,W,18,24,upset,6,2
+brazil2014,24 Jun 2014 - 13:00 Local time,24 Jun 2014,Match 39,Group D,Italy,ITA,0,0-1,1,Uruguay,URU, , ,Uruguay,L,W,9,6,expected,3,1
+brazil2014,24 Jun 2014 - 13:00 Local time,24 Jun 2014,Match 40,Group D,Costa Rica,CRC,0,0-0,0,England,ENG, , ,NA,D,D,31,10,upset,21,0
+brazil2014,24 Jun 2014 - 16:00 Local time,24 Jun 2014,Match 37,Group C,Japan,JPN,1,1-4,4,Colombia,COL, , ,Colombia,L,W,44,4,expected,40,3
+brazil2014,24 Jun 2014 - 17:00 Local time,24 Jun 2014,Match 38,Group C,Greece,GRE,2,2-1,1,Côte d'Ivoire,CIV, , ,Greece,W,L,15,17,expected,2,1
+brazil2014,25 Jun 2014 - 13:00 Local time,25 Jun 2014,Match 43,Group F,Nigeria,NGA,2,2-3,3,Argentina,ARG, , ,Argentina,L,W,33,3,expected,30,1
+brazil2014,25 Jun 2014 - 13:00 Local time,25 Jun 2014,Match 44,Group F,Bosnia and Herzegovina,BIH,3,3-1,1,IR Iran,IRN, , ,Bosnia and Herzegovina,W,L,16,49,expected,33,2
+brazil2014,25 Jun 2014 - 16:00 Local time,25 Jun 2014,Match 41,Group E,Honduras,HON,0,0-3,3,Switzerland,SUI, , ,Switzerland,L,W,34,7,expected,27,3
+brazil2014,25 Jun 2014 - 17:00 Local time,25 Jun 2014,Match 42,Group E,Ecuador,ECU,0,0-0,0,France,FRA, , ,NA,D,D,22,21,upset,1,0
+brazil2014,26 Jun 2014 - 13:00 Local time,26 Jun 2014,Match 45,Group G,USA,USA,0,0-1,1,Germany,GER, , ,Germany,L,W,13,2,expected,11,1
+brazil2014,26 Jun 2014 - 13:00 Local time,26 Jun 2014,Match 46,Group G,Portugal,POR,2,2-1,1,Ghana,GHA, , ,Portugal,W,L,14,23,expected,9,1
+brazil2014,26 Jun 2014 - 17:00 Local time,26 Jun 2014,Match 47,Group H,Korea Republic,KOR,0,0-1,1,Belgium,BEL, , ,Belgium,L,W,56,5,expected,51,1
+brazil2014,26 Jun 2014 - 17:00 Local time,26 Jun 2014,Match 48,Group H,Algeria,ALG,1,1-1,1,Russia,RUS, , ,NA,D,D,32,19,upset,13,0
+brazil2014,28 Jun 2014 - 13:00 Local time,28 Jun 2014,Match 49,Round of 16,Brazil,BRA,1,1-1,1,Chile,CHI,Brazil win on penalties (3 - 2) ,BRA win after PSO ,Brazil,W,L,11,12,expected,1,0
+brazil2014,28 Jun 2014 - 17:00 Local time,28 Jun 2014,Match 50,Round of 16,Colombia,COL,2,2-0,0,Uruguay,URU, , ,Colombia,W,L,4,6,expected,2,2
+brazil2014,30 Jun 2014 - 13:00 Local time,30 Jun 2014,Match 53,Round of 16,France,FRA,2,2-0,0,Nigeria,NGA, , ,France,W,L,21,33,expected,12,2
+brazil2014,30 Jun 2014 - 17:00 Local time,30 Jun 2014,Match 54,Round of 16,Germany,GER,2,2-1,1,Algeria,ALG,Germany win after extra time ,Germany win AET ,Germany,W,L,2,32,expected,30,1
+brazil2014,04 Jul 2014 - 17:00 Local time,04 Jul 2014,Match 57,Quarter-finals,Brazil,BRA,2,2-1,1,Colombia,COL, , ,Brazil,W,L,11,4,upset,7,1
+brazil2014,04 Jul 2014 - 13:00 Local time,04 Jul 2014,Match 58,Quarter-finals,France,FRA,0,0-1,1,Germany,GER, , ,Germany,L,W,21,2,expected,19,1
+brazil2014,08 Jul 2014 - 17:00 Local time,08 Jul 2014,Match 61,Semi-finals,Brazil,BRA,1,1-7,7,Germany,GER, , ,Germany,L,W,11,2,expected,9,6
+brazil2014,12 Jul 2014 - 17:00 Local time,12 Jul 2014,Match 63,Play-off for third place,Brazil,BRA,0,0-3,3,Netherlands,NED, , ,Netherlands,L,W,11,8,expected,3,3
+brazil2014,13 Jul 2014 - 16:00 Local time,13 Jul 2014,Match 64,Final,Germany,GER,1,1-0,0,Argentina,ARG,Germany win after extra time ,Germany win AET ,Germany,W,L,2,3,expected,1,1
+brazil2014,09 Jul 2014 - 17:00 Local time,09 Jul 2014,Match 62,Semi-finals,Netherlands,NED,0,0-0,0,Argentina,ARG,Argentina win on penalties (2 - 4) ,ARG win after PSO ,Argentina,L,W,8,3,expected,5,0
+brazil2014,05 Jul 2014 - 17:00 Local time,05 Jul 2014,Match 59,Quarter-finals,Netherlands,NED,0,0-0,0,Costa Rica,CRC,Netherlands win on penalties (4 - 3) ,NED win after PSO ,Netherlands,W,L,8,31,expected,23,0
+brazil2014,05 Jul 2014 - 13:00 Local time,05 Jul 2014,Match 60,Quarter-finals,Argentina,ARG,1,1-0,0,Belgium,BEL, , ,Argentina,W,L,3,5,expected,2,1
+brazil2014,29 Jun 2014 - 13:00 Local time,29 Jun 2014,Match 51,Round of 16,Netherlands,NED,2,2-1,1,Mexico,MEX, , ,Netherlands,W,L,8,24,expected,16,1
+brazil2014,29 Jun 2014 - 17:00 Local time,29 Jun 2014,Match 52,Round of 16,Costa Rica,CRC,1,1-1,1,Greece,GRE,Costa Rica win on penalties (5 - 3) ,CRC win after PSO ,Costa Rica,W,L,31,15,upset,16,0
+brazil2014,01 Jul 2014 - 13:00 Local time,01 Jul 2014,Match 55,Round of 16,Argentina,ARG,1,1-0,0,Switzerland,SUI,Argentina win after extra time ,Argentina win AET ,Argentina,W,L,3,7,expected,4,1
+brazil2014,01 Jul 2014 - 17:00 Local time,01 Jul 2014,Match 56,Round of 16,Belgium,BEL,2,2-1,1,USA,USA,Belgium win after extra time ,Belgium win AET ,Belgium,W,L,5,13,expected,8,1
+southafrica2010,11 Jun 2010 - 16:00 Local time,11 Jun 2010,Match 1,Group A,South Africa,RSA,1,1-1,1,Mexico,MEX, , ,NA,D,D,85,18,upset,67,0
+southafrica2010,11 Jun 2010 - 20:30 Local time,11 Jun 2010,Match 2,Group A,Uruguay,URU,0,0-0,0,France,FRA, , ,NA,D,D,25,9,upset,16,0
+southafrica2010,12 Jun 2010 - 13:30 Local time,12 Jun 2010,Match 4,Group B,Korea Republic,KOR,2,2-0,0,Greece,GRE, , ,Korea Republic,W,L,48,16,upset,32,2
+southafrica2010,12 Jun 2010 - 16:00 Local time,12 Jun 2010,Match 3,Group B,Argentina,ARG,1,1-0,0,Nigeria,NGA, , ,Argentina,W,L,6,32,expected,26,1
+southafrica2010,12 Jun 2010 - 20:30 Local time,12 Jun 2010,Match 5,Group C,England,ENG,1,1-1,1,USA,USA, , ,NA,D,D,7,11,expected,4,0
+southafrica2010,13 Jun 2010 - 13:30 Local time,13 Jun 2010,Match 6,Group C,Algeria,ALG,0,0-1,1,Slovenia,SVN, , ,Slovenia,L,W,29,49,upset,20,1
+southafrica2010,13 Jun 2010 - 16:00 Local time,13 Jun 2010,Match 8,Group D,Serbia,SRB,0,0-1,1,Ghana,GHA, , ,Ghana,L,W,20,38,upset,18,1
+southafrica2010,13 Jun 2010 - 20:30 Local time,13 Jun 2010,Match 7,Group D,Germany,GER,4,4-0,0,Australia,AUS, , ,Germany,W,L,5,24,expected,19,4
+southafrica2010,14 Jun 2010 - 13:30 Local time,14 Jun 2010,Match 9,Group E,Netherlands,NED,2,2-0,0,Denmark,DEN, , ,Netherlands,W,L,3,27,expected,24,2
+southafrica2010,14 Jun 2010 - 16:00 Local time,14 Jun 2010,Match 10,Group E,Japan,JPN,1,1-0,0,Cameroon,CMR, , ,Japan,W,L,40,14,upset,26,1
+southafrica2010,14 Jun 2010 - 20:30 Local time,14 Jun 2010,Match 11,Group F,Italy,ITA,1,1-1,1,Paraguay,PAR, , ,NA,D,D,4,21,expected,17,0
+southafrica2010,15 Jun 2010 - 13:30 Local time,15 Jun 2010,Match 12,Group F,New Zealand,NZL,1,1-1,1,Slovakia,SVK, , ,NA,D,D,83,33,upset,50,0
+southafrica2010,15 Jun 2010 - 16:00 Local time,15 Jun 2010,Match 13,Group G,Côte d'Ivoire,CIV,0,0-0,0,Portugal,POR, , ,NA,D,D,19,10,upset,9,0
+southafrica2010,15 Jun 2010 - 20:30 Local time,15 Jun 2010,Match 14,Group G,Brazil,BRA,2,2-1,1,Korea DPR,PRK, , ,Brazil,W,L,1,91,expected,90,1
+southafrica2010,16 Jun 2010 - 13:30 Local time,16 Jun 2010,Match 15,Group H,Honduras,HON,0,0-1,1,Chile,CHI, , ,Chile,L,W,35,17,expected,18,1
+southafrica2010,16 Jun 2010 - 16:00 Local time,16 Jun 2010,Match 16,Group H,Spain,ESP,0,0-1,1,Switzerland,SUI, , ,Switzerland,L,W,2,13,upset,11,1
+southafrica2010,16 Jun 2010 - 20:30 Local time,16 Jun 2010,Match 17,Group A,South Africa,RSA,0,0-3,3,Uruguay,URU, , ,Uruguay,L,W,85,25,expected,60,3
+southafrica2010,17 Jun 2010 - 13:30 Local time,17 Jun 2010,Match 20,Group B,Argentina,ARG,4,4-1,1,Korea Republic,KOR, , ,Argentina,W,L,6,48,expected,42,3
+southafrica2010,17 Jun 2010 - 16:00 Local time,17 Jun 2010,Match 19,Group B,Greece,GRE,2,2-1,1,Nigeria,NGA, , ,Greece,W,L,16,32,expected,16,1
+southafrica2010,17 Jun 2010 - 20:30 Local time,17 Jun 2010,Match 18,Group A,France,FRA,0,0-2,2,Mexico,MEX, , ,Mexico,L,W,9,18,upset,9,2
+southafrica2010,18 Jun 2010 - 13:30 Local time,18 Jun 2010,Match 21,Group D,Germany,GER,0,0-1,1,Serbia,SRB, , ,Serbia,L,W,5,20,upset,15,1
+southafrica2010,18 Jun 2010 - 16:00 Local time,18 Jun 2010,Match 22,Group C,Slovenia,SVN,2,2-2,2,USA,USA, , ,NA,D,D,49,11,upset,38,0
+southafrica2010,18 Jun 2010 - 20:30 Local time,18 Jun 2010,Match 23,Group C,England,ENG,0,0-0,0,Algeria,ALG, , ,NA,D,D,7,29,expected,22,0
+southafrica2010,19 Jun 2010 - 13:30 Local time,19 Jun 2010,Match 25,Group E,Netherlands,NED,1,1-0,0,Japan,JPN, , ,Netherlands,W,L,3,40,expected,37,1
+southafrica2010,19 Jun 2010 - 16:00 Local time,19 Jun 2010,Match 24,Group D,Ghana,GHA,1,1-1,1,Australia,AUS, , ,NA,D,D,38,24,upset,14,0
+southafrica2010,19 Jun 2010 - 20:30 Local time,19 Jun 2010,Match 26,Group E,Cameroon,CMR,1,1-2,2,Denmark,DEN, , ,Denmark,L,W,14,27,upset,13,1
+southafrica2010,20 Jun 2010 - 13:30 Local time,20 Jun 2010,Match 27,Group F,Slovakia,SVK,0,0-2,2,Paraguay,PAR, , ,Paraguay,L,W,33,21,expected,12,2
+southafrica2010,20 Jun 2010 - 16:00 Local time,20 Jun 2010,Match 28,Group F,Italy,ITA,1,1-1,1,New Zealand,NZL, , ,NA,D,D,4,83,expected,79,0
+southafrica2010,20 Jun 2010 - 20:30 Local time,20 Jun 2010,Match 29,Group G,Brazil,BRA,3,3-1,1,Côte d'Ivoire,CIV, , ,Brazil,W,L,1,19,expected,18,2
+southafrica2010,21 Jun 2010 - 13:30 Local time,21 Jun 2010,Match 30,Group G,Portugal,POR,7,7-0,0,Korea DPR,PRK, , ,Portugal,W,L,10,91,expected,81,7
+southafrica2010,21 Jun 2010 - 16:00 Local time,21 Jun 2010,Match 31,Group H,Chile,CHI,1,1-0,0,Switzerland,SUI, , ,Chile,W,L,17,13,upset,4,1
+southafrica2010,21 Jun 2010 - 20:30 Local time,21 Jun 2010,Match 32,Group H,Spain,ESP,2,2-0,0,Honduras,HON, , ,Spain,W,L,2,35,expected,33,2
+southafrica2010,22 Jun 2010 - 16:00 Local time,22 Jun 2010,Match 33,Group A,Mexico,MEX,0,0-1,1,Uruguay,URU, , ,Uruguay,L,W,18,25,upset,7,1
+southafrica2010,22 Jun 2010 - 16:00 Local time,22 Jun 2010,Match 34,Group A,France,FRA,1,1-2,2,South Africa,RSA, , ,South Africa,L,W,9,85,upset,76,1
+southafrica2010,22 Jun 2010 - 20:30 Local time,22 Jun 2010,Match 35,Group B,Nigeria,NGA,2,2-2,2,Korea Republic,KOR, , ,NA,D,D,32,48,expected,16,0
+southafrica2010,22 Jun 2010 - 20:30 Local time,22 Jun 2010,Match 36,Group B,Greece,GRE,0,0-2,2,Argentina,ARG, , ,Argentina,L,W,16,6,expected,10,2
+southafrica2010,23 Jun 2010 - 16:00 Local time,23 Jun 2010,Match 37,Group C,Slovenia,SVN,0,0-1,1,England,ENG, , ,England,L,W,49,7,expected,42,1
+southafrica2010,23 Jun 2010 - 16:00 Local time,23 Jun 2010,Match 38,Group C,USA,USA,1,1-0,0,Algeria,ALG, , ,USA,W,L,11,29,expected,18,1
+southafrica2010,23 Jun 2010 - 20:30 Local time,23 Jun 2010,Match 39,Group D,Ghana,GHA,0,0-1,1,Germany,GER, , ,Germany,L,W,38,5,expected,33,1
+southafrica2010,23 Jun 2010 - 20:30 Local time,23 Jun 2010,Match 40,Group D,Australia,AUS,2,2-1,1,Serbia,SRB, , ,Australia,W,L,24,20,upset,4,1
+southafrica2010,24 Jun 2010 - 16:00 Local time,24 Jun 2010,Match 41,Group F,Slovakia,SVK,3,3-2,2,Italy,ITA, , ,Slovakia,W,L,33,4,upset,29,1
+southafrica2010,24 Jun 2010 - 16:00 Local time,24 Jun 2010,Match 42,Group F,Paraguay,PAR,0,0-0,0,New Zealand,NZL, , ,NA,D,D,21,83,expected,62,0
+southafrica2010,24 Jun 2010 - 20:30 Local time,24 Jun 2010,Match 43,Group E,Denmark,DEN,1,1-3,3,Japan,JPN, , ,Japan,L,W,27,40,upset,13,2
+southafrica2010,24 Jun 2010 - 20:30 Local time,24 Jun 2010,Match 44,Group E,Cameroon,CMR,1,1-2,2,Netherlands,NED, , ,Netherlands,L,W,14,3,expected,11,1
+southafrica2010,25 Jun 2010 - 16:00 Local time,25 Jun 2010,Match 45,Group G,Portugal,POR,0,0-0,0,Brazil,BRA, , ,NA,D,D,10,1,upset,9,0
+southafrica2010,25 Jun 2010 - 16:00 Local time,25 Jun 2010,Match 46,Group G,Korea DPR,PRK,0,0-3,3,Côte d'Ivoire,CIV, , ,Côte d'Ivoire,L,W,91,19,expected,72,3
+southafrica2010,25 Jun 2010 - 20:30 Local time,25 Jun 2010,Match 47,Group H,Chile,CHI,1,1-2,2,Spain,ESP, , ,Spain,L,W,17,2,expected,15,1
+southafrica2010,25 Jun 2010 - 20:30 Local time,25 Jun 2010,Match 48,Group H,Switzerland,SUI,0,0-0,0,Honduras,HON, , ,NA,D,D,13,35,expected,22,0
+southafrica2010,26 Jun 2010 - 16:00 Local time,26 Jun 2010,Match 49,Round of 16,Uruguay,URU,2,2-1,1,Korea Republic,KOR, , ,Uruguay,W,L,25,48,expected,23,1
+southafrica2010,26 Jun 2010 - 20:30 Local time,26 Jun 2010,Match 50,Round of 16,USA,USA,1,1-2,2,Ghana,GHA,Ghana win after extra time ,Ghana win AET ,Ghana,L,W,11,38,upset,27,1
+southafrica2010,27 Jun 2010 - 16:00 Local time,27 Jun 2010,Match 51,Round of 16,Germany,GER,4,4-1,1,England,ENG, , ,Germany,W,L,5,7,expected,2,3
+southafrica2010,27 Jun 2010 - 20:30 Local time,27 Jun 2010,Match 52,Round of 16,Argentina,ARG,3,3-1,1,Mexico,MEX, , ,Argentina,W,L,6,18,expected,12,2
+southafrica2010,28 Jun 2010 - 16:00 Local time,28 Jun 2010,Match 53,Round of 16,Netherlands,NED,2,2-1,1,Slovakia,SVK, , ,Netherlands,W,L,3,33,expected,30,1
+southafrica2010,28 Jun 2010 - 20:30 Local time,28 Jun 2010,Match 54,Round of 16,Brazil,BRA,3,3-0,0,Chile,CHI, , ,Brazil,W,L,1,17,expected,16,3
+southafrica2010,29 Jun 2010 - 16:00 Local time,29 Jun 2010,Match 55,Round of 16,Paraguay,PAR,0,0-0,0,Japan,JPN,Paraguay win on penalties (5 - 3) ,PAR win after PSO ,Paraguay,W,L,21,40,expected,19,0
+southafrica2010,29 Jun 2010 - 20:30 Local time,29 Jun 2010,Match 56,Round of 16,Spain,ESP,1,1-0,0,Portugal,POR, , ,Spain,W,L,2,10,expected,8,1
+southafrica2010,02 Jul 2010 - 16:00 Local time,02 Jul 2010,Match 57,Quarter-finals,Netherlands,NED,2,2-1,1,Brazil,BRA, , ,Netherlands,W,L,3,1,upset,2,1
+southafrica2010,02 Jul 2010 - 20:30 Local time,02 Jul 2010,Match 58,Quarter-finals,Uruguay,URU,1,1-1,1,Ghana,GHA,Uruguay win on penalties (4 - 2) ,URU win after PSO ,Uruguay,W,L,25,38,expected,13,0
+southafrica2010,03 Jul 2010 - 16:00 Local time,03 Jul 2010,Match 59,Quarter-finals,Argentina,ARG,0,0-4,4,Germany,GER, , ,Germany,L,W,6,5,expected,1,4
+southafrica2010,03 Jul 2010 - 20:30 Local time,03 Jul 2010,Match 60,Quarter-finals,Paraguay,PAR,0,0-1,1,Spain,ESP, , ,Spain,L,W,21,2,expected,19,1
+southafrica2010,06 Jul 2010 - 20:30 Local time,06 Jul 2010,Match 61,Semi-finals,Uruguay,URU,2,2-3,3,Netherlands,NED, , ,Netherlands,L,W,25,3,expected,22,1
+southafrica2010,07 Jul 2010 - 20:30 Local time,07 Jul 2010,Match 62,Semi-finals,Germany,GER,0,0-1,1,Spain,ESP, , ,Spain,L,W,5,2,expected,3,1
+southafrica2010,10 Jul 2010 - 20:30 Local time,10 Jul 2010,Match 63,Match for third place,Uruguay,URU,2,2-3,3,Germany,GER, , ,Germany,L,W,25,5,expected,20,1
+southafrica2010,11 Jul 2010 - 20:30 Local time,11 Jul 2010,Match 64,Final,Netherlands,NED,0,0-1,1,Spain,ESP,Spain win after extra time ,Spain win AET ,Spain,L,W,3,2,expected,1,1
+germany2006,09 Jun 2006 - 18:00 Local time,09 Jun 2006,Match 1,Group A,Germany,GER,4,4-2,2,Costa Rica,CRC, , ,Germany,W,L,16,21,expected,5,2
+germany2006,09 Jun 2006 - 21:00 Local time,09 Jun 2006,Match 2,Group A,Poland,POL,0,0-2,2,Ecuador,ECU, , ,Ecuador,L,W,23,37,upset,14,2
+germany2006,10 Jun 2006 - 15:00 Local time,10 Jun 2006,Match 3,Group B,England,ENG,1,1-0,0,Paraguay,PAR, , ,England,W,L,9,30,expected,21,1
+germany2006,10 Jun 2006 - 18:00 Local time,10 Jun 2006,Match 4,Group B,Trinidad and Tobago,TRI,0,0-0,0,Sweden,SWE, , ,NA,D,D,51,14,upset,37,0
+germany2006,10 Jun 2006 - 21:00 Local time,10 Jun 2006,Match 5,Group C,Argentina,ARG,2,2-1,1,Côte d'Ivoire,CIV, , ,Argentina,W,L,4,41,expected,37,1
+germany2006,11 Jun 2006 - 15:00 Local time,11 Jun 2006,Match 6,Group C,Serbia and Montenegro,SCG,0,0-1,1,Netherlands,NED, , ,Netherlands,L,W,47,3,expected,44,1
+germany2006,11 Jun 2006 - 18:00 Local time,11 Jun 2006,Match 7,Group D,Mexico,MEX,3,3-1,1,IR Iran,IRN, , ,Mexico,W,L,7,19,expected,12,2
+germany2006,11 Jun 2006 - 21:00 Local time,11 Jun 2006,Match 8,Group D,Angola,ANG,0,0-1,1,Portugal,POR, , ,Portugal,L,W,62,10,expected,52,1
+germany2006,12 Jun 2006 - 15:00 Local time,12 Jun 2006,Match 12,Group F,Australia,AUS,3,3-1,1,Japan,JPN, , ,Australia,W,L,49,15,upset,34,2
+germany2006,12 Jun 2006 - 18:00 Local time,12 Jun 2006,Match 10,Group E,USA,USA,0,0-3,3,Czech Republic,CZE, , ,Czech Republic,L,W,8,2,expected,6,3
+germany2006,12 Jun 2006 - 21:00 Local time,12 Jun 2006,Match 9,Group E,Italy,ITA,2,2-0,0,Ghana,GHA, , ,Italy,W,L,12,50,expected,38,2
+germany2006,13 Jun 2006 - 15:00 Local time,13 Jun 2006,Match 14,Group G,Korea Republic,KOR,2,2-1,1,Togo,TOG, , ,Korea Republic,W,L,29,56,expected,27,1
+germany2006,13 Jun 2006 - 18:00 Local time,13 Jun 2006,Match 13,Group G,France,FRA,0,0-0,0,Switzerland,SUI, , ,NA,D,D,5,36,expected,31,0
+germany2006,13 Jun 2006 - 21:00 Local time,13 Jun 2006,Match 11,Group F,Brazil,BRA,1,1-0,0,Croatia,CRO, , ,Brazil,W,L,1,20,expected,19,1
+germany2006,14 Jun 2006 - 15:00 Local time,14 Jun 2006,Match 15,Group H,Spain,ESP,4,4-0,0,Ukraine,UKR, , ,Spain,W,L,6,40,expected,34,4
+germany2006,14 Jun 2006 - 18:00 Local time,14 Jun 2006,Match 16,Group H,Tunisia,TUN,2,2-2,2,Saudi Arabia,KSA, , ,NA,D,D,28,32,expected,4,0
+germany2006,14 Jun 2006 - 21:00 Local time,14 Jun 2006,Match 17,Group A,Germany,GER,1,1-0,0,Poland,POL, , ,Germany,W,L,16,23,expected,7,1
+germany2006,15 Jun 2006 - 15:00 Local time,15 Jun 2006,Match 18,Group A,Ecuador,ECU,3,3-0,0,Costa Rica,CRC, , ,Ecuador,W,L,37,21,upset,16,3
+germany2006,15 Jun 2006 - 18:00 Local time,15 Jun 2006,Match 19,Group B,England,ENG,2,2-0,0,Trinidad and Tobago,TRI, , ,England,W,L,9,51,expected,42,2
+germany2006,15 Jun 2006 - 21:00 Local time,15 Jun 2006,Match 20,Group B,Sweden,SWE,1,1-0,0,Paraguay,PAR, , ,Sweden,W,L,14,30,expected,16,1
+germany2006,16 Jun 2006 - 15:00 Local time,16 Jun 2006,Match 21,Group C,Argentina,ARG,6,6-0,0,Serbia and Montenegro,SCG, , ,Argentina,W,L,4,47,expected,43,6
+germany2006,16 Jun 2006 - 18:00 Local time,16 Jun 2006,Match 22,Group C,Netherlands,NED,2,2-1,1,Côte d'Ivoire,CIV, , ,Netherlands,W,L,3,41,expected,38,1
+germany2006,16 Jun 2006 - 21:00 Local time,16 Jun 2006,Match 23,Group D,Mexico,MEX,0,0-0,0,Angola,ANG, , ,NA,D,D,7,62,expected,55,0
+germany2006,17 Jun 2006 - 15:00 Local time,17 Jun 2006,Match 24,Group D,Portugal,POR,2,2-0,0,IR Iran,IRN, , ,Portugal,W,L,10,19,expected,9,2
+germany2006,17 Jun 2006 - 18:00 Local time,17 Jun 2006,Match 26,Group E,Czech Republic,CZE,0,0-2,2,Ghana,GHA, , ,Ghana,L,W,2,50,upset,48,2
+germany2006,17 Jun 2006 - 21:00 Local time,17 Jun 2006,Match 25,Group E,Italy,ITA,1,1-1,1,USA,USA, , ,NA,D,D,12,8,upset,4,0
+germany2006,18 Jun 2006 - 15:00 Local time,18 Jun 2006,Match 28,Group F,Japan,JPN,0,0-0,0,Croatia,CRO, , ,NA,D,D,15,20,expected,5,0
+germany2006,18 Jun 2006 - 18:00 Local time,18 Jun 2006,Match 27,Group F,Brazil,BRA,2,2-0,0,Australia,AUS, , ,Brazil,W,L,1,49,expected,48,2
+germany2006,18 Jun 2006 - 21:00 Local time,18 Jun 2006,Match 29,Group G,France,FRA,1,1-1,1,Korea Republic,KOR, , ,NA,D,D,5,29,expected,24,0
+germany2006,19 Jun 2006 - 15:00 Local time,19 Jun 2006,Match 30,Group G,Togo,TOG,0,0-2,2,Switzerland,SUI, , ,Switzerland,L,W,56,36,expected,20,2
+germany2006,19 Jun 2006 - 18:00 Local time,19 Jun 2006,Match 32,Group H,Saudi Arabia,KSA,0,0-4,4,Ukraine,UKR, , ,Ukraine,L,W,32,40,upset,8,4
+germany2006,19 Jun 2006 - 21:00 Local time,19 Jun 2006,Match 31,Group H,Spain,ESP,3,3-1,1,Tunisia,TUN, , ,Spain,W,L,6,28,expected,22,2
+germany2006,20 Jun 2006 - 16:00 Local time,20 Jun 2006,Match 33,Group A,Ecuador,ECU,0,0-3,3,Germany,GER, , ,Germany,L,W,37,16,expected,21,3
+germany2006,20 Jun 2006 - 16:00 Local time,20 Jun 2006,Match 34,Group A,Costa Rica,CRC,1,1-2,2,Poland,POL, , ,Poland,L,W,21,23,upset,2,1
+germany2006,20 Jun 2006 - 21:00 Local time,20 Jun 2006,Match 35,Group B,Sweden,SWE,2,2-2,2,England,ENG, , ,NA,D,D,14,9,upset,5,0
+germany2006,20 Jun 2006 - 21:00 Local time,20 Jun 2006,Match 36,Group B,Paraguay,PAR,2,2-0,0,Trinidad and Tobago,TRI, , ,Paraguay,W,L,30,51,expected,21,2
+germany2006,21 Jun 2006 - 16:00 Local time,21 Jun 2006,Match 40,Group D,Iran,IRN,1,1-1,1,Angola,ANG, , ,NA,D,D,19,62,expected,43,0
+germany2006,21 Jun 2006 - 16:00 Local time,21 Jun 2006,Match 39,Group D,Portugal,POR,2,2-1,1,Mexico,MEX, , ,Portugal,W,L,10,7,upset,3,1
+germany2006,21 Jun 2006 - 21:00 Local time,21 Jun 2006,Match 37,Group C,Netherlands,NED,0,0-0,0,Argentina,ARG, , ,NA,D,D,3,4,expected,1,0
+germany2006,21 Jun 2006 - 21:00 Local time,21 Jun 2006,Match 38,Group C,Côte d'Ivoire,CIV,3,3-2,2,Serbia and Montenegro,SCG, , ,Côte d'Ivoire,W,L,41,47,expected,6,1
+germany2006,22 Jun 2006 - 16:00 Local time,22 Jun 2006,Match 41,Group E,Czech Republic,CZE,0,0-2,2,Italy,ITA, , ,Italy,L,W,2,12,upset,10,2
+germany2006,22 Jun 2006 - 16:00 Local time,22 Jun 2006,Match 42,Group E,Ghana,GHA,2,2-1,1,USA,USA, , ,Ghana,W,L,50,8,upset,42,1
+germany2006,22 Jun 2006 - 21:00 Local time,22 Jun 2006,Match 43,Group F,Japan,JPN,1,1-4,4,Brazil,BRA, , ,Brazil,L,W,15,1,expected,14,3
+germany2006,22 Jun 2006 - 21:00 Local time,22 Jun 2006,Match 44,Group F,Croatia,CRO,2,2-2,2,Australia,AUS, , ,NA,D,D,20,49,expected,29,0
+germany2006,23 Jun 2006 - 16:00 Local time,23 Jun 2006,Match 48,Group H,Ukraine,UKR,1,1-0,0,Tunisia,TUN, , ,Ukraine,W,L,40,28,upset,12,1
+germany2006,23 Jun 2006 - 16:00 Local time,23 Jun 2006,Match 47,Group H,Saudi Arabia,KSA,0,0-1,1,Spain,ESP, , ,Spain,L,W,32,6,expected,26,1
+germany2006,23 Jun 2006 - 21:00 Local time,23 Jun 2006,Match 45,Group G,Togo,TOG,0,0-2,2,France,FRA, , ,France,L,W,56,5,expected,51,2
+germany2006,23 Jun 2006 - 21:00 Local time,23 Jun 2006,Match 46,Group G,Switzerland,SUI,2,2-0,0,Korea Republic,KOR, , ,Switzerland,W,L,36,29,upset,7,2
+germany2006,24 Jun 2006 - 17:00 Local time,24 Jun 2006,Match 49,Round of 16,Germany,GER,2,2-0,0,Sweden,SWE, , ,Germany,W,L,16,14,upset,2,2
+germany2006,24 Jun 2006 - 21:00 Local time,24 Jun 2006,Match 50,Round of 16,Argentina,ARG,2,2-1,1,Mexico,MEX,Argentina win after extra time ,Argentina win AET ,Argentina,W,L,4,7,expected,3,1
+germany2006,25 Jun 2006 - 17:00 Local time,25 Jun 2006,Match 51,Round of 16,England,ENG,1,1-0,0,Ecuador,ECU, , ,England,W,L,9,37,expected,28,1
+germany2006,25 Jun 2006 - 21:00 Local time,25 Jun 2006,Match 52,Round of 16,Portugal,POR,1,1-0,0,Netherlands,NED, , ,Portugal,W,L,10,3,upset,7,1
+germany2006,26 Jun 2006 - 17:00 Local time,26 Jun 2006,Match 53,Round of 16,Italy,ITA,1,1-0,0,Australia,AUS, , ,Italy,W,L,12,49,expected,37,1
+germany2006,26 Jun 2006 - 21:00 Local time,26 Jun 2006,Match 54,Round of 16,Switzerland,SUI,0,0-0,0,Ukraine,UKR,Ukraine win on penalties (0 - 3) ,UKR win after PSO ,Ukraine,L,W,36,40,upset,4,0
+germany2006,27 Jun 2006 - 17:00 Local time,27 Jun 2006,Match 55,Round of 16,Brazil,BRA,3,3-0,0,Ghana,GHA, , ,Brazil,W,L,1,50,expected,49,3
+germany2006,27 Jun 2006 - 21:00 Local time,27 Jun 2006,Match 56,Round of 16,Spain,ESP,1,1-3,3,France,FRA, , ,France,L,W,6,5,expected,1,2
+germany2006,30 Jun 2006 - 17:00 Local time,30 Jun 2006,Match 57,Quarter-finals,Germany,GER,1,1-1,1,Argentina,ARG,Germany win on penalties (4 - 2) ,GER win after PSO ,Germany,W,L,16,4,upset,12,0
+germany2006,30 Jun 2006 - 21:00 Local time,30 Jun 2006,Match 58,Quarter-finals,Italy,ITA,3,3-0,0,Ukraine,UKR, , ,Italy,W,L,12,40,expected,28,3
+germany2006,01 Jul 2006 - 17:00 Local time,01 Jul 2006,Match 59,Quarter-finals,England,ENG,0,0-0,0,Portugal,POR,Portugal win on penalties (1 - 3) ,POR win after PSO ,Portugal,L,W,9,10,upset,1,0
+germany2006,01 Jul 2006 - 21:00 Local time,01 Jul 2006,Match 60,Quarter-finals,Brazil,BRA,0,0-1,1,France,FRA, , ,France,L,W,1,5,upset,4,1
+germany2006,04 Jul 2006 - 21:00 Local time,04 Jul 2006,Match 61,Semi-finals,Germany,GER,0,0-2,2,Italy,ITA,Italy win after extra time ,Italy win AET ,Italy,L,W,16,12,expected,4,2
+germany2006,05 Jul 2006 - 21:00 Local time,05 Jul 2006,Match 62,Semi-finals,Portugal,POR,0,0-1,1,France,FRA, , ,France,L,W,10,5,expected,5,1
+germany2006,08 Jul 2006 - 21:00 Local time,08 Jul 2006,Match 63,Third place,Germany,GER,3,3-1,1,Portugal,POR, , ,Germany,W,L,16,10,upset,6,2
+germany2006,09 Jul 2006 - 20:00 Local time,09 Jul 2006,Match 64,Final,Italy,ITA,1,1-1,1,France,FRA,Italy win on penalties (5 - 3) ,ITA win after PSO ,Italy,W,L,12,5,upset,7,0
+koreajapan2002,31 May 2002 - 20:30 Local time,31 May 2002,Match 1,Group A,France,FRA,0,0-1,1,Senegal,SEN, , ,Senegal,L,W,2,88,upset,86,1
+koreajapan2002,01 Jun 2002 - 18:00 Local time,01 Jun 2002,Match 3,Group A,Uruguay,URU,1,1-2,2,Denmark,DEN, , ,Denmark,L,W,32,22,expected,10,1
+koreajapan2002,01 Jun 2002 - 15:30 Local time,01 Jun 2002,Match 2,Group E,Republic of Ireland,IRL,1,1-1,1,Cameroon,CMR, , ,NA,D,D,31,39,expected,8,0
+koreajapan2002,01 Jun 2002 - 20:30 Local time,01 Jun 2002,Match 4,Group E,Germany,GER,8,8-0,0,Saudi Arabia,KSA, , ,Germany,W,L,11,36,expected,25,8
+koreajapan2002,02 Jun 2002 - 14:30 Local time,02 Jun 2002,Match 7,Group F,Argentina,ARG,1,1-0,0,Nigeria,NGA, , ,Argentina,W,L,3,52,expected,49,1
+koreajapan2002,02 Jun 2002 - 16:30 Local time,02 Jun 2002,Match 6,Group B,Paraguay,PAR,2,2-2,2,South Africa,RSA, , ,NA,D,D,9,20,expected,11,0
+koreajapan2002,02 Jun 2002 - 18:30 Local time,02 Jun 2002,Match 5,Group F,England,ENG,1,1-1,1,Sweden,SWE, , ,NA,D,D,17,22,expected,5,0
+koreajapan2002,02 Jun 2002 - 20:30 Local time,02 Jun 2002,Match 8,Group B,Spain,ESP,3,3-1,1,Slovenia,SVN, , ,Spain,W,L,7,35,expected,28,2
+koreajapan2002,03 Jun 2002 - 18:00 Local time,03 Jun 2002,Match 10,Group C,Brazil,BRA,2,2-1,1,Turkey,TUR, , ,Brazil,W,L,1,30,expected,29,1
+koreajapan2002,03 Jun 2002 - 20:30 Local time,03 Jun 2002,Match 11,Group G,Italy,ITA,2,2-0,0,Ecuador,ECU, , ,Italy,W,L,4,53,expected,49,2
+koreajapan2002,03 Jun 2002 - 15:30 Local time,03 Jun 2002,Match 9,Group G,Croatia,CRO,0,0-1,1,Mexico,MEX, , ,Mexico,L,W,18,12,expected,6,1
+koreajapan2002,04 Jun 2002 - 15:30 Local time,04 Jun 2002,Match 12,Group C,China PR,CHN,0,0-2,2,Costa Rica,CRC, , ,Costa Rica,L,W,74,60,expected,14,2
+koreajapan2002,04 June 2002 - 18:00 Local time,04 June 2002,Match 13,Group H,Japan,JPN,2,2-2,2,Belgium,BEL, , ,NA,D,D,38,27,upset,11,0
+koreajapan2002,04 Jun 2002 - 20:30 Local time,04 Jun 2002,Match 14,Group D,Korea Republic,KOR,2,2-0,0,Poland,POL, , ,Korea Republic,W,L,40,43,expected,3,2
+koreajapan2002,05 Jun 2002 - 15:30 Local time,05 Jun 2002,Match 15,Group H,Russia,RUS,2,2-0,0,Tunisia,TUN, , ,Russia,W,L,21,26,expected,5,2
+koreajapan2002,05 Jun 2002 - 18:00 Local time,05 Jun 2002,Match 16,Group D,USA,USA,3,3-2,2,Portugal,POR, , ,USA,W,L,16,6,upset,10,1
+koreajapan2002,05 Jun 2002 - 20:30 Local time,05 Jun 2002,Match 17,Group E,Germany,GER,1,1-1,1,Republic of Ireland,IRL, , ,NA,D,D,11,31,expected,20,0
+koreajapan2002,06 Jun 2002 - 15:30 Local time,06 Jun 2002,Match 20,Group A,Denmark,DEN,1,1-1,1,Senegal,SEN, , ,NA,D,D,22,88,expected,66,0
+koreajapan2002,06 Jun 2002 - 18:00 Local time,06 Jun 2002,Match 19,Group E,Cameroon,CMR,1,1-0,0,Saudi Arabia,KSA, , ,Cameroon,W,L,39,36,upset,3,1
+koreajapan2002,06 Jun 2002 - 20:30 Local time,06 Jun 2002,Match 18,Group A,France,FRA,0,0-0,0,Uruguay,URU, , ,NA,D,D,2,32,expected,30,0
+koreajapan2002,07 Jun 2002 - 15:30 Local time,07 Jun 2002,Match 21,Group F,Sweden,SWE,2,2-1,1,Nigeria,NGA, , ,Sweden,W,L,22,52,expected,30,1
+koreajapan2002,07 Jun 2002 - 20:30 Local time,07 Jun 2002,Match 23,Group F,Argentina,ARG,0,0-1,1,England,ENG, , ,England,L,W,3,17,upset,14,1
+koreajapan2002,07 Jun 2002 - 18:00 Local time,07 Jun 2002,Match 22,Group B,Spain,ESP,3,3-1,1,Paraguay,PAR, , ,Spain,W,L,7,9,expected,2,2
+koreajapan2002,08 Jun 2002 - 15:30 Local time,08 Jun 2002,Match 24,Group B,South Africa,RSA,1,1-0,0,Slovenia,SVN, , ,South Africa,W,L,20,35,expected,15,1
+koreajapan2002,08 Jun 2002 - 20:30 Local time,08 Jun 2002,Match 26,Group C,Brazil,BRA,4,4-0,0,China PR,CHN, , ,Brazil,W,L,1,74,expected,73,4
+koreajapan2002,08 Jun 2002 - 18:00 Local time,08 Jun 2002,Match 25,Group G,Italy,ITA,1,1-2,2,Croatia,CRO, , ,Croatia,L,W,4,18,upset,14,1
+koreajapan2002,09 Jun 2002 - 18:00 Local time,09 Jun 2002,Match 28,Group C,Costa Rica,CRC,1,1-1,1,Turkey,TUR, , ,NA,D,D,60,30,upset,30,0
+koreajapan2002,09 Jun 2002 - 20:30 Local time,09 Jun 2002,Match 29,Group H,Japan,JPN,1,1-0,0,Russia,RUS, , ,Japan,W,L,38,21,upset,17,1
+koreajapan2002,09 Jun 2002 - 15:30 Local time,09 Jun 2002,Match 27,Group G,Mexico,MEX,2,2-1,1,Ecuador,ECU, , ,Mexico,W,L,12,53,expected,41,1
+koreajapan2002,10 Jun 2002 - 15:30 Local time,10 Jun 2002,Match 30,Group D,Korea Republic,KOR,1,1-1,1,USA,USA, , ,NA,D,D,40,16,upset,24,0
+koreajapan2002,10 Jun 2002 - 20:30 Local time,10 Jun 2002,Match 32,Group D,Portugal,POR,4,4-0,0,Poland,POL, , ,Portugal,W,L,6,43,expected,37,4
+koreajapan2002,10 Jun 2002 - 18:00 Local time,10 Jun 2002,Match 31,Group H,Tunisia,TUN,1,1-1,1,Belgium,BEL, , ,NA,D,D,26,27,expected,1,0
+koreajapan2002,11 Jun 2002 - 15:30 Local time,11 Jun 2002,Match 33,Group A,Denmark,DEN,2,2-0,0,France,FRA, , ,Denmark,W,L,22,2,upset,20,2
+koreajapan2002,11 Jun 2002 - 15:30 Local time,11 Jun 2002,Match 34,Group A,Senegal,SEN,3,3-3,3,Uruguay,URU, , ,NA,D,D,88,32,upset,56,0
+koreajapan2002,11 Jun 2002 - 20:30 Local time,11 Jun 2002,Match 36,Group E,Saudi Arabia,KSA,0,0-3,3,Republic of Ireland,IRL, , ,Republic of Ireland,L,W,36,31,expected,5,3
+koreajapan2002,11 Jun 2002 - 20:30 Local time,11 Jun 2002,Match 35,Group E,Cameroon,CMR,0,0-2,2,Germany,GER, , ,Germany,L,W,39,11,expected,28,2
+koreajapan2002,12 Jun 2002 - 15:30 Local time,12 Jun 2002,Match 37,Group F,Sweden,SWE,1,1-1,1,Argentina,ARG, , ,NA,D,D,22,3,upset,19,0
+koreajapan2002,12 Jun 2002 - 15:30 Local time,12 Jun 2002,Match 38,Group F,Nigeria,NGA,0,0-0,0,England,ENG, , ,NA,D,D,52,17,upset,35,0
+koreajapan2002,12 Jun 2002 - 20:30 Local time,12 Jun 2002,Match 40,Group B,Slovenia,SVN,1,1-3,3,Paraguay,PAR, , ,Paraguay,L,W,35,9,expected,26,2
+koreajapan2002,12 Jun 2002 - 20:30 Local time,12 Jun 2002,Match 39,Group B,South Africa,RSA,2,2-3,3,Spain,ESP, , ,Spain,L,W,20,7,expected,13,1
+koreajapan2002,13 Jun 2002 - 15:30 Local time,13 Jun 2002,Match 41,Group C,Costa Rica,CRC,2,2-5,5,Brazil,BRA, , ,Brazil,L,W,60,1,expected,59,3
+koreajapan2002,13 Jun 2002 - 15:30 Local time,13 Jun 2002,Match 42,Group C,Turkey,TUR,3,3-0,0,China PR,CHN, , ,Turkey,W,L,30,74,expected,44,3
+koreajapan2002,13 Jun 2002 - 20:30 Local time,13 Jun 2002,Match 44,Group G,Ecuador,ECU,1,1-0,0,Croatia,CRO, , ,Ecuador,W,L,53,18,upset,35,1
+koreajapan2002,13 Jun 2002 - 20:30 Local time,13 Jun 2002,Match 43,Group G,Mexico,MEX,1,1-1,1,Italy,ITA, , ,NA,D,D,12,4,upset,8,0
+koreajapan2002,14 Jun 2002 - 15:30 Local time,14 Jun 2002,Match 45,Group H,Tunisia,TUN,0,0-2,2,Japan,JPN, , ,Japan,L,W,26,38,upset,12,2
+koreajapan2002,14 Jun 2002 - 20:30 Local time,14 Jun 2002,Match 47,Group D,Portugal,POR,0,0-1,1,Korea Republic,KOR, , ,Korea Republic,L,W,6,40,upset,34,1
+koreajapan2002,14 Jun 2002 - 20:30 Local time,14 Jun 2002,Match 48,Group D,Poland,POL,3,3-1,1,USA,USA, , ,Poland,W,L,43,16,upset,27,2
+koreajapan2002,14 Jun 2002 - 15:30 Local time,14 Jun 2002,Match 46,Group H,Belgium,BEL,3,3-2,2,Russia,RUS, , ,Belgium,W,L,27,21,upset,6,1
+koreajapan2002,15 Jun 2002 - 20:30 Local time,15 Jun 2002,Match 50,Round of 16,Denmark,DEN,0,0-3,3,England,ENG, , ,England,L,W,22,17,expected,5,3
+koreajapan2002,15 Jun 2002 - 15:30 Local time,15 Jun 2002,Match 49,Round of 16,Germany,GER,1,1-0,0,Paraguay,PAR, , ,Germany,W,L,11,9,upset,2,1
+koreajapan2002,16 Jun 2002 - 20:30 Local time,16 Jun 2002,Match 52,Round of 16,Spain,ESP,1,1-1,1,Republic of Ireland,IRL,Spain win on penalties (3 - 2) ,Spain win after PSO ,Spain,W,L,7,31,expected,24,0
+koreajapan2002,16 Jun 2002 - 15:30 Local time,16 Jun 2002,Match 51,Round of 16,Sweden,SWE,1,1-2,2,Senegal,SEN,Win on Golden Goal ,Win by Golden Goal ,Senegal,L,W,22,88,upset,66,1
+koreajapan2002,17 Jun 2002 - 20:30 Local time,17 Jun 2002,Match 54,Round of 16,Brazil,BRA,2,2-0,0,Belgium,BEL, , ,Brazil,W,L,1,27,expected,26,2
+koreajapan2002,17 Jun 2002 - 15:30 Local time,17 Jun 2002,Match 53,Round of 16,Mexico,MEX,0,0-2,2,USA,USA, , ,USA,L,W,12,16,upset,4,2
+koreajapan2002,18 Jun 2002 - 15:30 Local time,18 Jun 2002,Match 55,Round of 16,Japan,JPN,0,0-1,1,Turkey,TUR, , ,Turkey,L,W,38,30,expected,8,1
+koreajapan2002,18 Jun 2002 - 20:30 Local time,18 Jun 2002,Match 56,Round of 16,Korea Republic,KOR,2,2-1,1,Italy,ITA,Win on Golden Goal ,Win by Golden Goal ,Korea Republic,W,L,40,4,upset,36,1
+koreajapan2002,21 Jun 2002 - 15:30 Local time,21 Jun 2002,Match 57,Quarter-finals,England,ENG,1,1-2,2,Brazil,BRA, , ,Brazil,L,W,17,1,expected,16,1
+koreajapan2002,21 Jun 2002 - 20:30 Local time,21 Jun 2002,Match 58,Quarter-finals,Germany,GER,1,1-0,0,USA,USA, , ,Germany,W,L,11,16,expected,5,1
+koreajapan2002,22 Jun 2002 - 20:30 Local time,22 Jun 2002,Match 60,Quarter-finals,Senegal,SEN,0,0-1,1,Turkey,TUR,Win on Golden Goal ,Win by Golden Goal ,Turkey,L,W,88,30,expected,58,1
+koreajapan2002,22 Jun 2002 - 15:30 Local time,22 Jun 2002,Match 59,Quarter-finals,Spain,ESP,0,0-0,0,Korea Republic,KOR,Korea Republic win on penalties (3 - 5) ,KOR win after PSO ,Korea Republic,L,W,7,40,upset,33,0
+koreajapan2002,25 Jun 2002 - 20:30 Local time,25 Jun 2002,Match 61,Semi-finals,Germany,GER,1,1-0,0,Korea Republic,KOR, , ,Germany,W,L,11,40,expected,29,1
+koreajapan2002,26 Jun 2002 - 20:30 Local time,26 Jun 2002,Match 62,Semi-finals,Brazil,BRA,1,1-0,0,Turkey,TUR, , ,Brazil,W,L,1,30,expected,29,1
+koreajapan2002,29 Jun 2002 - 20:00 Local time,29 Jun 2002,Match 63,Third place,Korea Republic,KOR,2,2-3,3,Turkey,TUR, , ,Turkey,L,W,40,30,expected,10,1
+koreajapan2002,30 Jun 2002 - 20:00 Local time,30 Jun 2002,Match 64,Final,Germany,GER,0,0-2,2,Brazil,BRA, , ,Brazil,L,W,11,1,expected,10,2
+france1998,10 Jun 1998 - 17:30 Local time,10 Jun 1998,Match 1,Group A,Brazil,BRA,2,2-1,1,Scotland,SCO, , ,Brazil,W,L,1,29,expected,28,1
+france1998,10 Jun 1998 - 21:00 Local time,10 Jun 1998,Match 2,Group A,Morocco,MAR,2,2-2,2,Norway,NOR, , ,NA,D,D,27,14,upset,13,0
+france1998,11 Jun 1998 - 17:30 Local time,11 Jun 1998,Match 4,Group B,Italy,ITA,2,2-2,2,Chile,CHI, , ,NA,D,D,10,26,expected,16,0
+france1998,11 Jun 1998 - 21:00 Local time,11 Jun 1998,Match 3,Group B,Cameroon,CMR,1,1-1,1,Austria,AUT, , ,NA,D,D,56,34,upset,22,0
+france1998,12 Jun 1998 - 14:30 Local time,12 Jun 1998,Match 7,Group D,Paraguay,PAR,0,0-0,0,Bulgaria,BUL, , ,NA,D,D,38,15,upset,23,0
+france1998,12 Jun 1998 - 17:30 Local time,12 Jun 1998,Match 5,Group C,Saudi Arabia,KSA,0,0-1,1,Denmark,DEN, , ,Denmark,L,W,37,6,expected,31,1
+france1998,12 Jun 1998 - 21:00 Local time,12 Jun 1998,Match 6,Group C,France,FRA,3,3-0,0,South Africa,RSA, , ,France,W,L,3,19,expected,16,3
+france1998,13 Jun 1998 - 14:30 Local time,13 Jun 1998,Match 10,Group D,Spain,ESP,2,2-3,3,Nigeria,NGA, , ,Nigeria,L,W,8,63,upset,55,1
+france1998,13 Jun 1998 - 17:30 Local time,13 Jun 1998,Match 9,Group E,Korea Republic,KOR,1,1-3,3,Mexico,MEX, , ,Mexico,L,W,44,11,expected,33,2
+france1998,13 Jun 1998 - 21:00 Local time,13 Jun 1998,Match 8,Group E,Netherlands,NED,0,0-0,0,Belgium,BEL, , ,NA,D,D,9,42,expected,33,0
+france1998,14 Jun 1998 - 14:30 Local time,14 Jun 1998,Match 13,Group H,Argentina,ARG,1,1-0,0,Japan,JPN, , ,Argentina,W,L,22,21,upset,1,1
+france1998,14 Jun 1998 - 17:30 Local time,14 Jun 1998,Match 12,Group F,Yugoslavia,YUG,1,1-0,0,Iran,IRN, , ,Yugoslavia,W,L,55,83,expected,28,1
+france1998,14 Jun 1998 - 21:00 Local time,14 Jun 1998,Match 11,Group H,Jamaica,JAM,1,1-3,3,Croatia,CRO, , ,Croatia,L,W,32,24,expected,8,2
+france1998,15 Jun 1998 - 14:30 Local time,15 Jun 1998,Match 16,Group G,England,ENG,2,2-0,0,Tunisia,TUN, , ,England,W,L,12,23,expected,11,2
+france1998,15 Jun 1998 - 17:30 Local time,15 Jun 1998,Match 15,Group G,Romania,ROU,1,1-0,0,Colombia,COL, , ,Romania,W,L,16,4,upset,12,1
+france1998,15 Jun 1998 - 21:00 Local time,15 Jun 1998,Match 14,Group F,Germany,GER,2,2-0,0,USA,USA, , ,Germany,W,L,2,18,expected,16,2
+france1998,16 Jun 1998 - 17:30 Local time,16 Jun 1998,Match 17,Group A,Scotland,SCO,1,1-1,1,Norway,NOR, , ,NA,D,D,29,14,upset,15,0
+france1998,16 Jun 1998 - 21:00 Local time,16 Jun 1998,Match 18,Group A,Brazil,BRA,3,3-0,0,Morocco,MAR, , ,Brazil,W,L,1,27,expected,26,3
+france1998,17 Jun 1998 - 17:30 Local time,17 Jun 1998,Match 19,Group B,Chile,CHI,1,1-1,1,Austria,AUT, , ,NA,D,D,26,34,expected,8,0
+france1998,17 Jun 1998 - 21:00 Local time,17 Jun 1998,Match 20,Group B,Italy,ITA,3,3-0,0,Cameroon,CMR, , ,Italy,W,L,10,56,expected,46,3
+france1998,18 Jun 1998 - 17:30 Local time,18 Jun 1998,Match 22,Group C,South Africa,RSA,1,1-1,1,Denmark,DEN, , ,NA,D,D,19,6,upset,13,0
+france1998,18 Jun 1998 - 21:00 Local time,18 Jun 1998,Match 21,Group C,France,FRA,4,4-0,0,Saudi Arabia,KSA, , ,France,W,L,3,37,expected,34,4
+france1998,19 Jun 1998 - 17:30 Local time,19 Jun 1998,Match 23,Group D,Nigeria,NGA,1,1-0,0,Bulgaria,BUL, , ,Nigeria,W,L,63,15,upset,48,1
+france1998,19 Jun 1998 - 21:00 Local time,19 Jun 1998,Match 24,Group D,Spain,ESP,0,0-0,0,Paraguay,PAR, , ,NA,D,D,8,38,expected,30,0
+france1998,20 Jun 1998 - 14:30 Local time,20 Jun 1998,Match 27,Group H,Japan,JPN,0,0-1,1,Croatia,CRO, , ,Croatia,L,W,21,24,upset,3,1
+france1998,20 Jun 1998 - 17:30 Local time,20 Jun 1998,Match 26,Group E,Belgium,BEL,2,2-2,2,Mexico,MEX, , ,NA,D,D,42,11,upset,31,0
+france1998,20 Jun 1998 - 21:00 Local time,20 Jun 1998,Match 25,Group E,Netherlands,NED,5,5-0,0,Korea Republic,KOR, , ,Netherlands,W,L,9,44,expected,35,5
+france1998,21 Jun 1998 - 14:30 Local time,21 Jun 1998,Match 29,Group F,Germany,GER,2,2-2,2,Yugoslavia,YUG, , ,NA,D,D,2,55,expected,53,0
+france1998,21 Jun 1998 - 17:30 Local time,21 Jun 1998,Match 28,Group H,Argentina,ARG,5,5-0,0,Jamaica,JAM, , ,Argentina,W,L,22,32,expected,10,5
+france1998,21 Jun 1998 - 21:00 Local time,21 Jun 1998,Match 30,Group F,USA,USA,1,1-2,2,Iran,IRN, , ,Iran,L,W,18,83,upset,65,1
+france1998,22 Jun 1998 - 17:30 Local time,22 Jun 1998,Match 31,Group G,Colombia,COL,1,1-0,0,Tunisia,TUN, , ,Colombia,W,L,4,23,expected,19,1
+france1998,22 Jun 1998 - 21:00 Local time,22 Jun 1998,Match 32,Group G,Romania,ROU,2,2-1,1,England,ENG, , ,Romania,W,L,16,12,upset,4,1
+france1998,23 Jun 1998 - 16:00 Local time,23 Jun 1998,Match 33,Group B,Italy,ITA,2,2-1,1,Austria,AUT, , ,Italy,W,L,10,34,expected,24,1
+france1998,23 Jun 1998 - 16:00 Local time,23 Jun 1998,Match 36,Group B,Chile,CHI,1,1-1,1,Cameroon,CMR, , ,NA,D,D,26,56,expected,30,0
+france1998,23 Jun 1998 - 21:00 Local time,23 Jun 1998,Match 34,Group A,Scotland,SCO,0,0-3,3,Morocco,MAR, , ,Morocco,L,W,29,27,expected,2,3
+france1998,23 Jun 1998 - 21:00 Local time,23 Jun 1998,Match 35,Group A,Brazil,BRA,1,1-2,2,Norway,NOR, , ,Norway,L,W,1,14,upset,13,1
+france1998,24 Jun 1998 - 16:00 Local time,24 Jun 1998,Match 38,Group C,France,FRA,2,2-1,1,Denmark,DEN, , ,France,W,L,3,6,expected,3,1
+france1998,24 Jun 1998 - 16:00 Local time,24 Jun 1998,Match 40,Group C,South Africa,RSA,2,2-2,2,Saudi Arabia,KSA, , ,NA,D,D,19,37,expected,18,0
+france1998,24 Jun 1998 - 21:00 Local time,24 Jun 1998,Match 37,Group D,Spain,ESP,6,6-1,1,Bulgaria,BUL, , ,Spain,W,L,8,15,expected,7,5
+france1998,24 Jun 1998 - 21:00 Local time,24 Jun 1998,Match 39,Group D,Nigeria,NGA,1,1-3,3,Paraguay,PAR, , ,Paraguay,L,W,63,38,expected,25,2
+france1998,25 Jun 1998 - 16:00 Local time,25 Jun 1998,Match 41,Group E,Belgium,BEL,1,1-1,1,Korea Republic,KOR, , ,NA,D,D,42,44,expected,2,0
+france1998,25 Jun 1998 - 16:00 Local time,25 Jun 1998,Match 42,Group E,Netherlands,NED,2,2-2,2,Mexico,MEX, , ,NA,D,D,9,11,expected,2,0
+france1998,25 Jun 1998 - 21:00 Local time,25 Jun 1998,Match 43,Group F,Germany,GER,2,2-0,0,Iran,IRN, , ,Germany,W,L,2,83,expected,81,2
+france1998,25 Jun 1998 - 21:00 Local time,25 Jun 1998,Match 44,Group F,USA,USA,0,0-1,1,Yugoslavia,YUG, , ,Yugoslavia,L,W,18,55,upset,37,1
+france1998,26 Jun 1998 - 16:00 Local time,26 Jun 1998,Match 47,Group H,Japan,JPN,1,1-2,2,Jamaica,JAM, , ,Jamaica,L,W,21,32,upset,11,1
+france1998,26 Jun 1998 - 16:00 Local time,26 Jun 1998,Match 48,Group H,Argentina,ARG,1,1-0,0,Croatia,CRO, , ,Argentina,W,L,22,24,expected,2,1
+france1998,26 Jun 1998 - 21:00 Local time,26 Jun 1998,Match 45,Group G,Romania,ROU,1,1-1,1,Tunisia,TUN, , ,NA,D,D,16,23,expected,7,0
+france1998,26 Jun 1998 - 21:00 Local time,26 Jun 1998,Match 46,Group G,Colombia,COL,0,0-2,2,England,ENG, , ,England,L,W,4,12,upset,8,2
+france1998,27 Jun 1998 - 16:30 Local time,27 Jun 1998,Match 50,Round of 16,Italy,ITA,1,1-0,0,Norway,NOR, , ,Italy,W,L,10,14,expected,4,1
+france1998,27 Jun 1998 - 21:00 Local time,27 Jun 1998,Match 49,Round of 16,Brazil,BRA,4,4-1,1,Chile,CHI, , ,Brazil,W,L,1,26,expected,25,3
+france1998,28 Jun 1998 - 16:30 Local time,28 Jun 1998,Match 52,Round of 16,France,FRA,1,1-0,0,Paraguay,PAR,France win after extra time ,France win AET ,France,W,L,3,38,expected,35,1
+france1998,28 Jun 1998 - 21:00 Local time,28 Jun 1998,Match 51,Round of 16,Nigeria,NGA,1,1-4,4,Denmark,DEN, , ,Denmark,L,W,63,6,expected,57,3
+france1998,29 Jun 1998 - 16:30 Local time,29 Jun 1998,Match 53,Round of 16,Germany,GER,2,2-1,1,Mexico,MEX, , ,Germany,W,L,2,11,expected,9,1
+france1998,29 Jun 1998 - 21:00 Local time,29 Jun 1998,Match 54,Round of 16,Netherlands,NED,2,2-1,1,Yugoslavia,YUG, , ,Netherlands,W,L,9,55,expected,46,1
+france1998,30 Jun 1998 - 16:30 Local time,30 Jun 1998,Match 56,Round of 16,Romania,ROU,0,0-1,1,Croatia,CRO, , ,Croatia,L,W,16,24,upset,8,1
+france1998,30 Jun 1998 - 21:00 Local time,30 Jun 1998,Match 55,Round of 16,Argentina,ARG,2,2-2,2,England,ENG,Argentina win on penalties (4 - 3) ,ARG win after PSO ,Argentina,W,L,22,12,upset,10,0
+france1998,03 Jul 1998 - 16:30 Local time,03 Jul 1998,Match 57,Quarter-finals,Italy,ITA,0,0-0,0,France,FRA,France win on penalties (3 - 4) ,FRA win after PSO ,France,L,W,10,3,expected,7,0
+france1998,03 Jul 1998 - 21:00 Local time,03 Jul 1998,Match 58,Quarter-finals,Brazil,BRA,3,3-2,2,Denmark,DEN, , ,Brazil,W,L,1,6,expected,5,1
+france1998,04 Jul 1998 - 16:30 Local time,04 Jul 1998,Match 60,Quarter-finals,Netherlands,NED,2,2-1,1,Argentina,ARG, , ,Netherlands,W,L,9,22,expected,13,1
+france1998,04 Jul 1998 - 21:00 Local time,04 Jul 1998,Match 59,Quarter-finals,Germany,GER,0,0-3,3,Croatia,CRO, , ,Croatia,L,W,2,24,upset,22,3
+france1998,07 Jul 1998 - 21:00 Local time,07 Jul 1998,Match 61,Semi-finals,Brazil,BRA,1,1-1,1,Netherlands,NED,Brazil win on penalties (4 - 2) ,BRA win after PSO ,Brazil,W,L,1,9,expected,8,0
+france1998,08 Jul 1998 - 21:00 Local time,08 Jul 1998,Match 62,Semi-finals,France,FRA,2,2-1,1,Croatia,CRO, , ,France,W,L,3,24,expected,21,1
+france1998,11 Jul 1998 - 21:00 Local time,11 Jul 1998,Match 63,Match for third place,Netherlands,NED,1,1-2,2,Croatia,CRO, , ,Croatia,L,W,9,24,upset,15,1
+france1998,12 Jul 1998 - 21:00 Local time,12 Jul 1998,Match 64,Final,Brazil,BRA,0,0-3,3,France,FRA, , ,France,L,W,1,3,upset,2,3
