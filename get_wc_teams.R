@@ -3,6 +3,7 @@ library(tidyverse) # for data manipulation
 library(rvest) # for web scraping
 library(lubridate) # to work with the birthdates
 library(tictoc) # for timing the script
+library(DT) # for interactive tables
 
 # start timer
 tic()
@@ -20,16 +21,16 @@ url <- "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup_squads"
 # Switzerland: The final squad will be announced on 4 June 2018.  -- xpath: 20
 
 # make a vector for all table numbers (will be 32 but for now 30)
-table_numbers <- c(1:31)
+table_numbers <- c(1:32)
 
 # function to get table for each team
 get_teams <- function(tbl_nums) {
-  headers <- map_int(tbl_nums, ~if_else(.>19,as.integer(.+1),.))  # skip 19 and 20 for now
+  #headers <- map_int(tbl_nums, ~if_else(.>19,as.integer(.+1),.))  # skip 19 and 20 for now
   
   # get country names
   team_name <-   url %>%
     read_html() %>%
-    html_node(xpath = paste0('//*[@id="mw-content-text"]/div/h3[',headers,']')) %>%
+    html_node(xpath = paste0('//*[@id="mw-content-text"]/div/h3[',tbl_nums,']')) %>%
     html_text
   
   # get squad info
@@ -46,12 +47,12 @@ teams <- map_df(table_numbers, get_teams)
 
 # clean up the data
 teams <- teams %>%
-  filter(!is.na(Caps)) %>%
-  select(-`0#0`) %>%
+  #filter(!is.na(Caps)) %>%
+  # select(-`0#0`) %>%
   # add and change columns to match historical data
-  mutate(No = NA, ClubCountry = NA, Year = 2018) %>%
-  rename(Pos = `Pos.`, `DOB/Age` = `Date of birth (age)`, Country = team_name) %>%
-  select(-Goals) %>%
+  mutate(`No.` = as.character(`No.`), ClubCountry = NA, Year = 2018) %>%
+  rename(No = `No.`, Pos = `Pos.`, `DOB/Age` = `Date of birth (age)`, Country = team_name) %>%
+  # select(-Goals) %>%
   select(No,Pos,Player,`DOB/Age`,Caps,Club,Country,ClubCountry,Year)
 
 ## read in historical data
@@ -85,6 +86,19 @@ all_squads <- all_squads %>%
          birth_year = lubridate::year(dob),
          birth_month = lubridate::month(dob),
          birth_day = lubridate::day(dob))
+
+## write the file
+write_csv(all_squads,"squads.csv")
+
+## make a data table
+
+int_table <- all_squads %>%
+  filter(Year == 2018) %>%
+  select(Pos,Player,`DOB/Age`,Caps,Country,Club) %>%
+  mutate_at(c("Pos","Country"), ~as.factor(.))
+  
+datatable(int_table, filter = 'top', options = list(pageLength = 23))
+
 
 # eda  (compare age, caps, clubs)
 
