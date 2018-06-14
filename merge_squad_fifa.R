@@ -370,6 +370,281 @@ group_match_results <- group_matches %>%
 
 write_csv(group_match_results,"group_stage_match_results.csv")
 
+## get top two to make a knockout
+
+index1 <- seq(1,31,2)[seq(1,16,2)]
+index2 <- seq(2,32,2)[seq(1,16,2)]
+
+index <- sort(c(index1,index2))
+
+top_two <- group_tables[index,]
+
+knockout <- tibble(
+  winner = top_two$team[c(1,3,5,7,9,11,13,15)],
+  runnerup = top_two$team[c(4,2,8,6,12,10,16,14)]
+)
+
+
+knockout <- knockout %>%
+  inner_join(rnk, by=c("winner"="team")) %>%
+  rename(winner_rank = rank, winner_points = prev_pnts) %>%
+  inner_join(rnk, by=c("runnerup"="team")) %>%
+  rename(runnerup_rank = rank, runnerup_points = prev_pnts) %>%
+  mutate(rank_diff = winner_rank-runnerup_rank,
+         o_team = if_else(rank_diff<0, winner, runnerup),
+         d_team = if_else(rank_diff<0, runnerup, winner)) %>%
+  select(o_team,d_team) %>%
+  inner_join(rnk, by=c("o_team"="team")) %>%
+  rename(o_rank = rank, o_points = prev_pnts) %>%
+  inner_join(rnk, by=c("d_team"="team")) %>%
+  rename(d_rank = rank, d_points = prev_pnts) %>%
+  mutate(rank_diff = o_rank-d_rank) %>%
+  inner_join(ofdf_tbl, by=c("o_team"="Country")) %>%
+  select(-def_score) %>%
+  rename(o_score = off_score) %>%
+  inner_join(ofdf_tbl, by=c("d_team"="Country")) %>%
+  select(-off_score) %>%
+  rename(d_score = def_score) %>%
+  mutate(score_diff = o_score-d_score) %>%
+  arrange(score_diff) %>%
+  ####
+  inner_join(ofdf_tbl, by=c("o_team"="Country")) %>%
+  select(-off_score) %>%
+  rename(df_score = def_score) %>%
+  inner_join(ofdf_tbl, by=c("d_team"="Country")) %>%
+  select(-def_score) %>%
+  rename(of_score = off_score) %>%
+  mutate(upset_option = of_score-df_score,
+         team_a = if_else(score_diff < 0 & upset_option > 0, d_team, o_team),
+         diff_dist = abs(score_diff-upset_option),
+         a_points = 3,
+         team_b = if_else(score_diff < 0 & upset_option > 0, o_team, d_team),
+         b_points = 0)
+
+write_csv(knockout, "knockout_round16_matches.csv")
+
+top_rows <- tibble(
+  team = knockout$team_a,
+  points = knockout$a_points
+)
+
+bottom_rows <- tibble(
+  team = knockout$team_b,
+  points = knockout$b_points
+)
+
+ko_points <- bind_rows(top_rows,bottom_rows)
+
+ko_tables <- ko_points %>%
+  group_by(team) %>%
+  summarise(total_points = sum(points)) %>%
+  arrange(-total_points) %>%
+  ungroup() %>%
+  filter(total_points > 0) %>%
+  mutate(round = "Round of 16")
+
+semis <- tibble(
+  team_a = ko_tables$team[c(7,3,8,6)],
+  team_b = ko_tables$team[c(5,2,1,4)]
+)
+
+semis <- semis %>%
+  inner_join(rnk, by=c("team_a"="team")) %>%
+  rename(a_rank = rank, a_points = prev_pnts) %>%
+  inner_join(rnk, by=c("team_b"="team")) %>%
+  rename(b_rank = rank, b_points = prev_pnts) %>%
+  mutate(rank_diff = a_rank-b_rank,
+         o_team = if_else(rank_diff<0, team_a, team_b),
+         d_team = if_else(rank_diff<0, team_b, team_a)) %>%
+  select(o_team,d_team) %>%
+  inner_join(rnk, by=c("o_team"="team")) %>%
+  rename(o_rank = rank, o_points = prev_pnts) %>%
+  inner_join(rnk, by=c("d_team"="team")) %>%
+  rename(d_rank = rank, d_points = prev_pnts) %>%
+  mutate(rank_diff = o_rank-d_rank) %>%
+  inner_join(ofdf_tbl, by=c("o_team"="Country")) %>%
+  select(-def_score) %>%
+  rename(o_score = off_score) %>%
+  inner_join(ofdf_tbl, by=c("d_team"="Country")) %>%
+  select(-off_score) %>%
+  rename(d_score = def_score) %>%
+  mutate(score_diff = o_score-d_score) %>%
+  arrange(score_diff) %>%
+  ####
+  inner_join(ofdf_tbl, by=c("o_team"="Country")) %>%
+  select(-off_score) %>%
+  rename(df_score = def_score) %>%
+  inner_join(ofdf_tbl, by=c("d_team"="Country")) %>%
+  select(-def_score) %>%
+  rename(of_score = off_score) %>%
+  mutate(upset_option = of_score-df_score,
+         team_a = if_else(upset_option > 4, d_team, o_team),
+         diff_dist = abs(score_diff-upset_option),
+         a_points = 3,
+         team_b = if_else(upset_option > 4, o_team, d_team),
+         b_points = 0)
+
+write_csv(semis, "knockout_semi_matches.csv")
+
+top_rows <- tibble(
+  team = semis$team_a,
+  points = semis$a_points
+)
+
+bottom_rows <- tibble(
+  team = semis$team_b,
+  points = semis$b_points
+)
+
+ko_points <- bind_rows(top_rows,bottom_rows)
+
+semi_tables <- ko_points %>%
+  group_by(team) %>%
+  summarise(total_points = sum(points)) %>%
+  arrange(-total_points) %>%
+  ungroup() %>%
+  filter(total_points > 0) %>%
+  mutate(round = "Semis")
+
+ko_tables <- bind_rows(ko_tables,semi_tables)
+
+semis2 <- tibble(
+  team_a = ko_tables$team[c(10,12)],
+  team_b = ko_tables$team[c(9,11)]
+)
+
+semis2 <- semis2 %>%
+  inner_join(rnk, by=c("team_a"="team")) %>%
+  rename(a_rank = rank, a_points = prev_pnts) %>%
+  inner_join(rnk, by=c("team_b"="team")) %>%
+  rename(b_rank = rank, b_points = prev_pnts) %>%
+  mutate(rank_diff = a_rank-b_rank,
+         o_team = if_else(rank_diff<0, team_a, team_b),
+         d_team = if_else(rank_diff<0, team_b, team_a)) %>%
+  select(o_team,d_team) %>%
+  inner_join(rnk, by=c("o_team"="team")) %>%
+  rename(o_rank = rank, o_points = prev_pnts) %>%
+  inner_join(rnk, by=c("d_team"="team")) %>%
+  rename(d_rank = rank, d_points = prev_pnts) %>%
+  mutate(rank_diff = o_rank-d_rank) %>%
+  inner_join(ofdf_tbl, by=c("o_team"="Country")) %>%
+  select(-def_score) %>%
+  rename(o_score = off_score) %>%
+  inner_join(ofdf_tbl, by=c("d_team"="Country")) %>%
+  select(-off_score) %>%
+  rename(d_score = def_score) %>%
+  mutate(score_diff = o_score-d_score) %>%
+  arrange(score_diff) %>%
+  ####
+  inner_join(ofdf_tbl, by=c("o_team"="Country")) %>%
+  select(-off_score) %>%
+  rename(df_score = def_score) %>%
+  inner_join(ofdf_tbl, by=c("d_team"="Country")) %>%
+  select(-def_score) %>%
+  rename(of_score = off_score) %>%
+  mutate(upset_option = of_score-df_score,
+         team_a = if_else(upset_option > 1, d_team, o_team),
+         diff_dist = abs(score_diff-upset_option),
+         a_points = 3,
+         team_b = if_else(upset_option > 1, o_team, d_team),
+         b_points = 0)
+
+write_csv(semis2, "knockout_semi2_matches.csv")
+
+top_rows <- tibble(
+  team = semis2$team_a,
+  points = semis2$a_points
+)
+
+bottom_rows <- tibble(
+  team = semis2$team_b,
+  points = semis2$b_points
+)
+
+ko_points <- bind_rows(top_rows,bottom_rows)
+
+semi2_tables <- ko_points %>%
+  group_by(team) %>%
+  summarise(total_points = sum(points)) %>%
+  arrange(-total_points) %>%
+  ungroup() %>%
+  filter(total_points > 0) %>%
+  mutate(round = "Semis2")
+
+ko_tables <- bind_rows(ko_tables,semi2_tables)
+
+
+### FINALS
+
+final <- tibble(
+  team_a = ko_tables$team[c(13)],
+  team_b = ko_tables$team[c(14)]
+)
+
+final <- final %>%
+  inner_join(rnk, by=c("team_a"="team")) %>%
+  rename(a_rank = rank, a_points = prev_pnts) %>%
+  inner_join(rnk, by=c("team_b"="team")) %>%
+  rename(b_rank = rank, b_points = prev_pnts) %>%
+  mutate(rank_diff = a_rank-b_rank,
+         o_team = if_else(rank_diff<0, team_a, team_b),
+         d_team = if_else(rank_diff<0, team_b, team_a)) %>%
+  select(o_team,d_team) %>%
+  inner_join(rnk, by=c("o_team"="team")) %>%
+  rename(o_rank = rank, o_points = prev_pnts) %>%
+  inner_join(rnk, by=c("d_team"="team")) %>%
+  rename(d_rank = rank, d_points = prev_pnts) %>%
+  mutate(rank_diff = o_rank-d_rank) %>%
+  inner_join(ofdf_tbl, by=c("o_team"="Country")) %>%
+  select(-def_score) %>%
+  rename(o_score = off_score) %>%
+  inner_join(ofdf_tbl, by=c("d_team"="Country")) %>%
+  select(-off_score) %>%
+  rename(d_score = def_score) %>%
+  mutate(score_diff = o_score-d_score) %>%
+  arrange(score_diff) %>%
+  ####
+  inner_join(ofdf_tbl, by=c("o_team"="Country")) %>%
+  select(-off_score) %>%
+  rename(df_score = def_score) %>%
+  inner_join(ofdf_tbl, by=c("d_team"="Country")) %>%
+  select(-def_score) %>%
+  rename(of_score = off_score) %>%
+  mutate(upset_option = of_score-df_score,
+         team_a = if_else(upset_option > 1, d_team, o_team),
+         diff_dist = abs(score_diff-upset_option),
+         a_points = 3,
+         team_b = if_else(upset_option > 1, o_team, d_team),
+         b_points = 0)
+
+write_csv(final, "knockout_final_match.csv")
+
+top_rows <- tibble(
+  team = final$team_a,
+  points = final$a_points
+)
+
+bottom_rows <- tibble(
+  team = final$team_b,
+  points = final$b_points
+)
+
+ko_points <- bind_rows(top_rows,bottom_rows)
+
+final_tables <- ko_points %>%
+  group_by(team) %>%
+  summarise(total_points = sum(points)) %>%
+  arrange(-total_points) %>%
+  ungroup() %>%
+  filter(total_points > 0) %>%
+  mutate(round = "Final")
+
+ko_tables <- bind_rows(ko_tables,final_tables)
+
+ko_tables <- ko_tables %>% select(team,round)
+
+write_csv(ko_tables,"knockout_results.csv")
+
 ## 12 draws  --> 6 draw upsets and 4 win upsets
 
 ## next join in the rankings
