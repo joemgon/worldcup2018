@@ -1,0 +1,33 @@
+group,team,total_points,goal_difference
+Group A,Russia,7,3
+Group A,Uruguay,7,3
+Group A,Egypt,1,-2
+Group A,Saudi Arabia,1,-3
+Group B,Spain,9,5
+Group B,Portugal,6,3
+Group B,Morocco,3,-2
+Group B,IR Iran,0,-5
+Group C,France,9,6
+Group C,Denmark,6,1
+Group C,Australia,1,-3
+Group C,Peru,1,-3
+Group D,Argentina,7,4
+Group D,Croatia,7,4
+Group D,Nigeria,3,-3
+Group D,Iceland,0,-5
+Group E,Brazil,9,5
+Group E,Switzerland,4,-0
+Group E,Serbia,4,-0
+Group E,Costa Rica,0,-4
+Group F,Germany,9,5
+Group F,Mexico,6,1
+Group F,Sweden,3,-2
+Group F,Korea Republic,0,-4
+Group G,Belgium,9,6
+Group G,England,6,4
+Group G,Tunisia,3,-4
+Group G,Panama,0,-6
+Group H,Poland,3,1
+Group H,Colombia,3,0
+Group H,Senegal,3,-0
+Group H,Japan,3,-1
