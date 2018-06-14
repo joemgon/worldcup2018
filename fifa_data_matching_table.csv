@@ -1,0 +1,648 @@
+join_id,wc_name,fifa_name,wc_country,fifa_country,wc_club,fifa_club,qgram_dist_norm,lcs_dist_norm,ql_dist
+1,Essam El-Hadary (captain),E. El Hadary,Egypt,Egypt,Al-Taawoun,Al Taawoun,0,0,0
+2,Ali Gabr,A. Gabr,Egypt,Egypt,West Bromwich Albion,NA,0,0,0
+3,Ahmed Elmohamady,A. Elmohamady,Egypt,Egypt,Aston Villa,Aston Villa,0,0,0
+4,Omar Gaber,O. Gaber,Egypt,Egypt,Los Angeles FC,FC Basel,0,0,0
+5,Sam Morsy,S. Morsy,Egypt,Egypt,Wigan Athletic,Wigan Athletic,0,0,0
+6,Ahmed Hegazi,A. Hegazy,Egypt,Egypt,West Bromwich Albion,West Bromwich Albion,0,0,0
+7,Ahmed Fathy,A. Fathi,Egypt,Egypt,Al Ahly,NA,0,0,0
+8,Tarek Hamed,T. Hamed,Egypt,Egypt,Zamalek,NA,0,0,0
+9,Marwan Mohsen,M. Mohsen,Egypt,Egypt,Al Ahly,NA,0,0,0
+10,Mohamed Salah,M. Salah,Egypt,Egypt,Liverpool,Liverpool,0,0,0
+11,Kahraba,Kahraba,Egypt,Egypt,Al-Ittihad,Al Ittihad,0,0,0
+14,Ramadan Sobhi,R. Sobhi,Egypt,Egypt,Stoke City,Stoke City,0,0,0
+16,Sherif Ekramy,S. Ekramy,Egypt,Egypt,Al Ahly,NA,0,0,0
+17,Mohamed Elneny,M. Elneny,Egypt,Egypt,Arsenal,Arsenal,0,0,0
+18,Shikabala,Shikabala,Egypt,Egypt,Al-Raed,Al Raed,0,0,0
+21,Trézéguet,Trezeguet,Egypt,Egypt,Kasımpaşa,Kasimpaşa SK,0,0,0
+22,Amr Warda,A. Warda,Egypt,Egypt,Atromitos,NA,0,0,0
+23,Mohamed El-Shenawy,A. El-Shenawy,Egypt,Egypt,Al Ahly,NA,0,0,0
+24,Igor Akinfeev (captain),I. Akinfeev,Russia,Russia,CSKA Moscow,CSKA Moscow,0,0,0
+25,Mário Fernandes,Mário Fernandes,Russia,Russia,CSKA Moscow,CSKA Moscow,0,0,0
+26,Ilya Kutepov,I. Kutepov,Russia,Russia,Spartak Moscow,Spartak Moscow,0,0,0
+27,Sergei Ignashevich,S. Ignashevich,Russia,Russia,CSKA Moscow,CSKA Moscow,0,0,0
+29,Denis Cheryshev,D. Cheryshev,Russia,Russia,Villarreal,Villarreal CF,0,0,0
+30,Daler Kuzyayev,D. Kuzyaev,Russia,Russia,Zenit Saint Petersburg,Zenit St. Petersburg,0,0,0
+31,Yury Gazinsky,Y. Gazinskiy,Russia,Russia,Krasnodar,FC Krasnodar,0,0,0
+32,Alan Dzagoev,A. Dzagoev,Russia,Russia,CSKA Moscow,CSKA Moscow,0,0,0
+33,Fyodor Smolov,F. Smolov,Russia,Russia,Krasnodar,FC Krasnodar,0,0,0
+34,Roman Zobnin,R. Zobnin,Russia,Russia,Spartak Moscow,Spartak Moscow,0,0,0
+36,Fyodor Kudryashov,F. Kudryashov,Russia,Russia,Rubin Kazan,Rubin Kazan,0,0,0
+37,Vladimir Granat,V. Granat,Russia,Russia,Rubin Kazan,Rubin Kazan,0,0,0
+38,Aleksei Miranchuk,A. Miranchuk,Russia,Russia,Lokomotiv Moscow,Lokomotiv Moscow,0,0,0
+39,Anton Miranchuk,A. Miranchuk,Russia,Russia,Lokomotiv Moscow,Lokomotiv Moscow,0,0,0
+40,Aleksandr Golovin,A. Golovin,Russia,Russia,CSKA Moscow,CSKA Moscow,0,0,0
+41,Yuri Zhirkov,Y. Zhirkov,Russia,Russia,Zenit Saint Petersburg,Zenit St. Petersburg,0,0,0
+42,Aleksandr Samedov,A. Samedov,Russia,Russia,Spartak Moscow,Spartak Moscow,0,0,0
+43,Vladimir Gabulov,V. Gabulov,Russia,Russia,Club Brugge,Arsenal Tula,0,0,0
+45,Artem Dzyuba,A. Dzyuba,Russia,Russia,Arsenal Tula,Zenit St. Petersburg,0,0,0
+46,Igor Smolnikov,I. Smolnikov,Russia,Russia,Zenit Saint Petersburg,Zenit St. Petersburg,0,0,0
+48,Mansoor Al-Harbi,M. Al Harbi,Saudi Arabia,Saudi Arabia,Al-Ahli,Al Ahli,0,0,0
+49,Osama Hawsawi (captain),O. Hawsawi,Saudi Arabia,Saudi Arabia,Al-Hilal,Al Hilal,0,0,0
+51,Omar Hawsawi,O. Hawsawi,Saudi Arabia,Saudi Arabia,Al-Nassr,Al Hilal,0,0,0
+54,Yahya Al-Shehri,Y. Al Shehri,Saudi Arabia,Saudi Arabia,Leganés,Al Nassr,0,0,0
+55,Hattan Bahebri,H. Bahebri,Saudi Arabia,Saudi Arabia,Al-Shabab,Al Shabab,0,0,0
+56,Mohammad Al-Sahlawi,M. Al Sahlawi,Saudi Arabia,Saudi Arabia,Al-Nassr,Al Nassr,0,0,0
+57,Abdulmalek Al-Khaibri,A. Al Khaibari,Saudi Arabia,Saudi Arabia,Al-Hilal,Al Hilal,0,0,0
+58,Mohamed Kanno,M. Kanno,Saudi Arabia,Saudi Arabia,Al-Hilal,Al Hilal,0,0,0
+59,Yasser Al-Shahrani,Y. Al Shahrani,Saudi Arabia,Saudi Arabia,Al-Hilal,Al Hilal,0,0,0
+60,Abdullah Otayf,W. Abdullah,Saudi Arabia,Saudi Arabia,Al-Hilal,Al Nassr,0,0,0
+64,Salem Al-Dawsari,S. Al Dawsari,Saudi Arabia,Saudi Arabia,Villarreal,Al Hilal,0,0,0
+65,Fahad Al-Muwallad,F. Al Muwallad,Saudi Arabia,Saudi Arabia,Levante,Al Ittihad,0,0,0
+66,Muhannad Assiri,M. Asiri,Saudi Arabia,Saudi Arabia,Al-Ahli,Al Qadisiyah,0,0,0
+67,Yasser Al-Mosailem,Y. Al Mosailem,Saudi Arabia,Saudi Arabia,Al-Ahli,Al Ahli,0,0,0
+69,Motaz Hawsawi,M. Hawsawi,Saudi Arabia,Saudi Arabia,Al-Ahli,Al Ahli,0,0,0
+71,José Giménez,J. Giménez,Uruguay,Uruguay,Atlético Madrid,Atlético Madrid,0,0,0
+75,Rodrigo Bentancur,R. Bentancur,Uruguay,Uruguay,Juventus,Juventus,0,0,0
+77,Nahitan Nández,N. Nández,Uruguay,Uruguay,Boca Juniors,Boca Juniors,0,0,0
+82,Gastón Silva,G. Silva,Uruguay,Uruguay,Independiente,Independiente,0,0,0
+84,Matías Vecino,M. Vecino,Uruguay,Uruguay,Inter Milan,Inter,0,0,0
+86,Diego Laxalt,D. Laxalt,Uruguay,Uruguay,Genoa,Genoa,0,0,0
+88,Sebastián Coates,S. Coates,Uruguay,Uruguay,Sporting CP,Sporting CP,0,0,0
+89,Jonathan Urretaviscaya,J. Urretaviscaya,Uruguay,Uruguay,Monterrey,Pachuca,0,0,0
+90,Edinson Cavani,E. Cavani,Uruguay,Uruguay,Paris Saint-Germain,Paris Saint-Germain,0,0,0
+91,Martín Cáceres,M. Cáceres,Uruguay,Uruguay,Lazio,Hellas Verona,0,0,0
+92,Martín Silva,M. Silva,Uruguay,Uruguay,Vasco da Gama,Real Salt Lake,0,0,0
+97,Milad Mohammadi,M. Mohammadi,Iran,Iran,Akhmat Grozny,Terek Grozny,0,0,0
+98,Saeid Ezatolahi,S. Ezatolahi,Iran,Iran,Amkar Perm,Amkar Perm,0,0,0
+102,Karim Ansarifard,K. Ansarifard,Iran,Iran,Olympiacos,Olympiakos CFP,0,0,0
+104,Mohammad Rashid Mazaheri,M. Mohammadi,Iran,Iran,Zob Ahan,Terek Grozny,0,0,0
+106,Saman Ghoddos,S. Ghoddos,Iran,Iran,Östersund,Östersunds FK,0,0,0
+108,Reza Ghoochannejhad,R. Ghoochannejhad,Iran,Iran,Heerenveen,SC Heerenveen,0,0,0
+110,Alireza Jahanbakhsh,A. Jahanbakhsh,Iran,Iran,AZ,AZ Alkmaar,0,0,0
+112,Sardar Azmoun,S. Azmoun,Iran,Iran,Rubin Kazan,Rubin Kazan,0,0,0
+114,Amir Abedzadeh,A. Abedzadeh,Iran,Iran,Marítimo,CS Marítimo,0,0,0
+115,Ramin Rezaeian,R. Rezaeian,Iran,Iran,Oostende,KV Oostende,0,0,0
+116,Yassine Bounou,Y. Bounou,Morocco,Morocco,Girona,Girona CF,0,0,0
+117,Achraf Hakimi,A. Hakimi,Morocco,Morocco,Real Madrid,Real Madrid CF,0,0,0
+118,Hamza Mendyl,H. Mendyl,Morocco,Morocco,Lille,LOSC Lille,0,0,0
+119,Manuel da Costa,Manuel da Costa,Morocco,Morocco,İstanbul Başakşehir,İstanbul Başakşehir FK,0,0,0
+120,Medhi Benatia (captain),M. Benatia,Morocco,Morocco,Juventus,Juventus,0,0,0
+121,Romain Saïss,R. Saïss,Morocco,Morocco,Wolverhampton Wanderers,Wolverhampton Wanderers,0,0,0
+122,Hakim Ziyech,H. Ziyech,Morocco,Morocco,Ajax,Ajax,0,0,0
+123,Karim El Ahmadi,K. El Ahmadi,Morocco,Morocco,Feyenoord,Feyenoord,0,0,0
+124,Ayoub El Kaabi,M. El Kabir,Morocco,Morocco,RS Berkane,Antalyaspor,0,0,0
+125,Younès Belhanda,Y. Belhanda,Morocco,Morocco,Galatasaray,Galatasaray SK,0,0,0
+126,Fayçal Fajr,F. Fajr,Morocco,Morocco,Getafe,Getafe CF,0,0,0
+128,Khalid Boutaïb,K. Boutaïb,Morocco,Morocco,Yeni Malatyaspor,Evkur Yeni Malatyaspor,0,0,0
+130,Youssef Aït Bennasser,Y. Ait Bennasser,Morocco,Morocco,Caen,SM Caen,0,0,0
+131,Nordin Amrabat,N. Amrabat,Morocco,Morocco,Leganés,CD Leganés,0,0,0
+132,Nabil Dirar,N. Dirar,Morocco,Morocco,Fenerbahçe,Fenerbahçe SK,0,0,0
+133,Amine Harit,A. Harit,Morocco,Morocco,Schalke 04,FC Schalke 04,0,0,0
+134,Youssef En-Nesyri,Y. En-Nesyri,Morocco,Morocco,Málaga,Málaga CF,0,0,0
+135,Aziz Bouhaddouz,A. Bouhaddouz,Morocco,Morocco,FC St. Pauli,FC St. Pauli,0,0,0
+136,Sofyan Amrabat,S. Amrabat,Morocco,Morocco,Feyenoord,Feyenoord,0,0,0
+139,Rui Patrício,Rui Patrício,Portugal,Portugal,Sporting CP,Sporting CP,0,0,0
+140,Bruno Alves,Bruno Alves,Portugal,Portugal,Rangers,Rangers,0,0,0
+141,Pepe,Pepe,Portugal,Portugal,Beşiktaş,Beşiktaş JK,0,0,0
+142,Manuel Fernandes,Manuel Fernandes,Portugal,Portugal,Lokomotiv Moscow,Lokomotiv Moscow,0,0,0
+143,Raphaël Guerreiro,R. Guerreiro,Portugal,Portugal,Borussia Dortmund,Borussia Dortmund,0,0,0
+144,José Fonte,José Fonte,Portugal,Portugal,Dalian Yifang,West Ham United,0,0,0
+145,Cristiano Ronaldo (captain),Cristiano Ronaldo,Portugal,Portugal,Real Madrid,Real Madrid CF,0,0,0
+146,João Moutinho,João Moutinho,Portugal,Portugal,Monaco,AS Monaco,0,0,0
+147,André Silva,André Silva,Portugal,Portugal,Milan,Milan,0,0,0
+148,João Mário,João Mário,Portugal,Portugal,West Ham United,Inter,0,0,0
+149,Bernardo Silva,Bernardo Silva,Portugal,Portugal,Manchester City,Manchester City,0,0,0
+150,Anthony Lopes,Rony Lopes,Portugal,Portugal,Lyon,AS Monaco,0,0,0
+151,Rúben Dias,Rúben Dias,Portugal,Portugal,Benfica,SL Benfica,0,0,0
+152,William Carvalho,William Carvalho,Portugal,Portugal,Sporting CP,Sporting CP,0,0,0
+153,Ricardo Pereira,Ricardo Pereira,Portugal,Portugal,Porto,FC Porto,0,0,0
+154,Bruno Fernandes,Bruno Fernandes,Portugal,Portugal,Sporting CP,Sporting CP,0,0,0
+155,Gonçalo Guedes,Gonçalo Guedes,Portugal,Portugal,Valencia,Valencia CF,0,0,0
+156,Gelson Martins,Gelson Martins,Portugal,Portugal,Sporting CP,Sporting CP,0,0,0
+157,Mário Rui,Mário Rui,Portugal,Portugal,Napoli,Napoli,0,0,0
+159,Cédric,Cédric,Portugal,Portugal,Southampton,Southampton,0,0,0
+160,Beto,Beto,Portugal,Portugal,Göztepe,Göztepe,0,0,0
+161,Adrien Silva,Adrien Silva,Portugal,Portugal,Leicester City,NA,0,0,0
+164,Gerard Piqué,Gerard,Spain,Spain,Barcelona,CD Leganés,0,0,0
+165,Nacho,Nacho,Spain,Spain,Real Madrid,Real Valladolid,0,0,0
+166,Sergio Busquets,Sergio Busquets,Spain,Spain,Barcelona,FC Barcelona,0,0,0
+167,Andrés Iniesta,Iniesta,Spain,Spain,Barcelona,FC Barcelona,0,0,0
+168,Saúl,Saúl,Spain,Spain,Atlético Madrid,Atlético Madrid,0,0,0
+169,Koke,Koke,Spain,Spain,Atlético Madrid,Atlético Madrid,0,0,0
+170,Rodrigo,Rodrigo,Spain,Spain,Valencia,Valencia CF,0,0,0
+171,Thiago,Thiago,Spain,Spain,Bayern Munich,FC Bayern Munich,0,0,0
+172,Lucas Vázquez,Lucas Vázquez,Spain,Spain,Real Madrid,Real Madrid CF,0,0,0
+173,Álvaro Odriozola,Odriozola,Spain,Spain,Real Sociedad,Real Sociedad,0,0,0
+174,Kepa Arrizabalaga,Arrizabalaga,Spain,Spain,Athletic Bilbao,Athletic Club de Bilbao,0,0,0
+175,César Azpilicueta,Azpilicueta,Spain,Spain,Chelsea,Chelsea,0,0,0
+176,Sergio Ramos (captain),Sergio Ramos,Spain,Spain,Real Madrid,Real Madrid CF,0,0,0
+177,Nacho Monreal,Nacho Monreal,Spain,Spain,Arsenal,Arsenal,0,0,0
+178,Iago Aspas,Iago Aspas,Spain,Spain,Celta Vigo,RC Celta de Vigo,0,0,0
+179,Jordi Alba,Jordi Alba,Spain,Spain,Barcelona,FC Barcelona,0,0,0
+180,Diego Costa,Diego Costa,Spain,Spain,Atlético Madrid,Chelsea,0,0,0
+181,Marco Asensio,Marco Asensio,Spain,Spain,Real Madrid,Real Madrid CF,0,0,0
+182,David Silva,David Silva,Spain,Spain,Manchester City,Manchester City,0,0,0
+183,Isco,Isco,Spain,Spain,Real Madrid,Real Madrid CF,0,0,0
+185,Mathew Ryan,M. Ryan,Australia,Australia,Brighton & Hove Albion,Brighton & Hove Albion,0,0,0
+186,Milos Degenek,M. Degenek,Australia,Australia,Yokohama F. Marinos,Yokohama F. Marinos,0,0,0
+187,James Meredith,J. Meredith,Australia,Australia,Millwall,Millwall,0,0,0
+188,Tim Cahill,T. Cahill,Australia,Australia,Millwall,Melbourne City,0,0,0
+189,Mark Milligan,M. Milligan,Australia,Australia,Al-Ahli,Melbourne Victory,0,0,0
+190,Matthew Jurman,M. Jurman,Australia,Australia,Suwon Samsung Bluewings,Suwon Samsung Bluewings,0,0,0
+191,Mathew Leckie,M. Leckie,Australia,Australia,Hertha BSC,Hertha BSC Berlin,0,0,0
+192,Massimo Luongo,M. Luongo,Australia,Australia,Queens Park Rangers,Queens Park Rangers,0,0,0
+193,Tomi Juric,T. Jurić,Australia,Australia,Luzern,FC Luzern,0,0,0
+194,Robbie Kruse,R. Kruse,Australia,Australia,VfL Bochum,VfL Bochum,0,0,0
+195,Andrew Nabbout,A. Nabbout,Australia,Australia,Urawa Red Diamonds,Newcastle Jets,0,0,0
+196,Brad Jones,B. Jones,Australia,Australia,Feyenoord,Feyenoord,0,0,0
+197,Aaron Mooy,A. Mooy,Australia,Australia,Huddersfield Town,Huddersfield Town,0,0,0
+198,Jamie Maclaren,J. Maclaren,Australia,Australia,Hibernian,SV Darmstadt 98,0,0,0
+200,Aziz Behich,A. Behich,Australia,Australia,Bursaspor,Bursaspor,0,0,0
+202,Danny Vukovic,D. Vukovic,Australia,Australia,Genk,KRC Genk,0,0,0
+203,Josh Risdon,J. Risdon,Australia,Australia,Western Sydney Wanderers,Western Sydney Wanderers,0,0,0
+204,Trent Sainsbury,T. Sainsbury,Australia,Australia,Grasshoppers,NA,0,0,0
+205,Dimitri Petratos,D. Petratos,Australia,Australia,Newcastle Jets,Newcastle Jets,0,0,0
+206,Jackson Irvine,J. Irvine,Australia,Australia,Hull City,Hull City,0,0,0
+208,Kasper Schmeichel,K. Schmeichel,Denmark,Denmark,Leicester City,Leicester City,0,0,0
+209,Michael Krohn-Dehli,M. Krohn-Dehli,Denmark,Denmark,Deportivo La Coruña,Sevilla FC,0,0,0
+210,Jannik Vestergaard,J. Vestergaard,Denmark,Denmark,Borussia Mönchengladbach,Borussia Mönchengladbach,0,0,0
+211,Simon Kjær (captain),S. Kjær,Denmark,Denmark,Sevilla,Sevilla FC,0,0,0
+212,Jonas Knudsen,J. Knudsen,Denmark,Denmark,Ipswich Town,Ipswich Town,0,0,0
+213,Andreas Christensen,A. Christensen,Denmark,Denmark,Chelsea,Chelsea,0,0,0
+216,Nicolai Jørgensen,N. Jørgensen,Denmark,Denmark,Feyenoord,Feyenoord,0,0,0
+217,Christian Eriksen,A. Christiansen,Denmark,Denmark,Tottenham Hotspur,Malmö FF,0,0,0
+218,Martin Braithwaite,M. Braithwaite,Denmark,Denmark,Bordeaux,Middlesbrough,0,0,0
+219,Kasper Dolberg,K. Dolberg,Denmark,Denmark,Ajax,Ajax,0,0,0
+220,Mathias Jørgensen,M. Jørgensen,Denmark,Denmark,Huddersfield Town,Huddersfield Town,0,0,0
+221,Henrik Dalsgaard,H. Dalsgaard,Denmark,Denmark,Brentford,Brentford,0,0,0
+222,Viktor Fischer,V. Fischer,Denmark,Denmark,Copenhagen,1. FSV Mainz 05,0,0,0
+224,Jens Stryger Larsen,J. Stryger Larsen,Denmark,Denmark,Udinese,Udinese,0,0,0
+225,Lukas Lerager,L. Lerager,Denmark,Denmark,Bordeaux,Girondins de Bordeaux,0,0,0
+226,Lasse Schöne,L. Schøne,Denmark,Denmark,Ajax,Ajax,0,0,0
+227,Yussuf Poulsen,Y. Poulsen,Denmark,Denmark,RB Leipzig,RB Leipzig,0,0,0
+228,Andreas Cornelius,A. Cornelius,Denmark,Denmark,Atalanta,Atalanta,0,0,0
+229,Frederik Rønnow,F. Rønnow,Denmark,Denmark,Brøndby,Brøndby IF,0,0,0
+230,Pione Sisto,P. Sisto,Denmark,Denmark,Celta Vigo,RC Celta de Vigo,0,0,0
+231,Hugo Lloris (captain),H. Lloris,France,France,Tottenham Hotspur,Tottenham Hotspur,0,0,0
+232,Benjamin Pavard,B. Pavard,France,France,VfB Stuttgart,VfB Stuttgart,0,0,0
+233,Presnel Kimpembe,P. Kimpembe,France,France,Paris Saint-Germain,Paris Saint-Germain,0,0,0
+234,Raphaël Varane,R. Varane,France,France,Real Madrid,Real Madrid CF,0,0,0
+235,Samuel Umtiti,S. Umtiti,France,France,Barcelona,FC Barcelona,0,0,0
+236,Paul Pogba,P. Pogba,France,France,Manchester United,Manchester United,0,0,0
+237,Antoine Griezmann,A. Griezmann,France,France,Atlético Madrid,Atlético Madrid,0,0,0
+238,Thomas Lemar,T. Lemar,France,France,Monaco,AS Monaco,0,0,0
+239,Olivier Giroud,O. Giroud,France,France,Chelsea,Arsenal,0,0,0
+240,Kylian Mbappé,K. Mbappé,France,France,Paris Saint-Germain,Paris Saint-Germain,0,0,0
+241,Ousmane Dembélé,O. Dembélé,France,France,Barcelona,FC Barcelona,0,0,0
+242,Corentin Tolisso,C. Tolisso,France,France,Bayern Munich,FC Bayern Munich,0,0,0
+243,N'Golo Kanté,N. Kanté,France,France,Chelsea,Chelsea,0,0,0
+244,Blaise Matuidi,B. Matuidi,France,France,Juventus,Juventus,0,0,0
+246,Steve Mandanda,S. Mandanda,France,France,Marseille,Olympique de Marseille,0,0,0
+247,Adil Rami,A. Rami,France,France,Marseille,Olympique de Marseille,0,0,0
+248,Nabil Fekir,N. Fekir,France,France,Lyon,Olympique Lyonnais,0,0,0
+249,Djibril Sidibé,D. Sidibé,France,France,Monaco,AS Monaco,0,0,0
+250,Florian Thauvin,F. Thauvin,France,France,Marseille,Olympique de Marseille,0,0,0
+254,Pedro Gallese,P. Gallese,Peru,Peru,Veracruz,NA,0,0,0
+256,Aldo Corzo,A. Corzo,Peru,Peru,Universitario,NA,0,0,0
+260,Paolo Hurtado,P. Hurtado,Peru,Peru,Vitória de Guimarães,Vitória Guimarães,0,0,0
+264,Raúl Ruidíaz,R. Ruidíaz,Peru,Peru,Morelia,Monarcas Morelia,0,0,0
+266,Renato Tapia,R. Tapia,Peru,Peru,Feyenoord,Feyenoord,0,0,0
+267,Andy Polo,A. Polo,Peru,Peru,Portland Timbers,Monarcas Morelia,0,0,0
+269,Wilder Cartagena,W. Cartagena,Peru,Peru,Veracruz,NA,0,0,0
+270,Luis Advíncula,L. Advíncula,Peru,Peru,Lobos BUAP,Lobos de la BUAP,0,0,0
+273,Edison Flores,E. Flores,Peru,Peru,AaB,Aalborg BK,0,0,0
+274,José Carvallo,J. Carvallo,Peru,Peru,UTC,NA,0,0,0
+275,Nilson Loyola,N. Loyola,Peru,Peru,Melgar,NA,0,0,0
+279,Nicolás Tagliafico,N. Tagliafico,Argentina,Argentina,Ajax,Independiente,0,0,0
+281,Lucas Biglia,L. Biglia,Argentina,Argentina,Milan,Milan,0,0,0
+283,Éver Banega,E. Banega,Argentina,Argentina,Sevilla,Sevilla FC,0,0,0
+285,Gonzalo Higuaín,G. Higuaín,Argentina,Argentina,Juventus,Juventus,0,0,0
+286,Lionel Messi (captain),L. Messi,Argentina,Argentina,Barcelona,FC Barcelona,0,0,0
+287,Ángel Di María,A. Di María,Argentina,Argentina,Paris Saint-Germain,Paris Saint-Germain,0,0,0
+288,Franco Armani,F. Armani,Argentina,Argentina,River Plate,Atletico Nacional Medellin,0,0,0
+290,Javier Mascherano,J. Mascherano,Argentina,Argentina,Hebei China Fortune,FC Barcelona,0,0,0
+291,Enzo Pérez,E. Pérez,Argentina,Argentina,River Plate,River Plate,0,0,0
+293,Nicolás Otamendi,N. Otamendi,Argentina,Argentina,Manchester City,Manchester City,0,0,0
+296,Giovani Lo Celso,G. Lo Celso,Argentina,Argentina,Paris Saint-Germain,Paris Saint-Germain,0,0,0
+297,Paulo Dybala,P. Dybala,Argentina,Argentina,Juventus,Juventus,0,0,0
+299,Willy Caballero,W. Caballero,Argentina,Argentina,Chelsea,Chelsea,0,0,0
+301,Šime Vrsaljko,S. Vrsaljko,Croatia,Croatia,Atlético Madrid,Atlético Madrid,0,0,0
+302,Ivan Strinić,I. Strinić,Croatia,Croatia,Sampdoria,Sampdoria,0,0,0
+303,Ivan Perišić,I. Perišić,Croatia,Croatia,Inter Milan,Inter,0,0,0
+304,Vedran Ćorluka,V. Ćorluka,Croatia,Croatia,Lokomotiv Moscow,Lokomotiv Moscow,0,0,0
+305,Dejan Lovren,D. Lovren,Croatia,Croatia,Liverpool,Liverpool,0,0,0
+306,Ivan Rakitić,I. Rakitić,Croatia,Croatia,Barcelona,FC Barcelona,0,0,0
+307,Mateo Kovačić,M. Kovačić,Croatia,Croatia,Real Madrid,Real Madrid CF,0,0,0
+308,Andrej Kramarić,A. Kramarić,Croatia,Croatia,1899 Hoffenheim,TSG 1899 Hoffenheim,0,0,0
+309,Luka Modrić (captain),L. Modrić,Croatia,Croatia,Real Madrid,Real Madrid CF,0,0,0
+310,Marcelo Brozović,M. Brozović,Croatia,Croatia,Inter Milan,Inter,0,0,0
+311,Lovre Kalinić,L. Kalinić,Croatia,Croatia,Gent,KAA Gent,0,0,0
+312,Tin Jedvaj,T. Jedvaj,Croatia,Croatia,Bayer Leverkusen,Bayer 04 Leverkusen,0,0,0
+314,Duje Ćaleta-Car,D. Ćaleta-Car,Croatia,Croatia,Red Bull Salzburg,FC Red Bull Salzburg,0,0,0
+315,Nikola Kalinić,N. Kalinić,Croatia,Croatia,Milan,Milan,0,0,0
+316,Mario Mandžukić,M. Mandžukić,Croatia,Croatia,Juventus,Juventus,0,0,0
+317,Ante Rebić,A. Rebić,Croatia,Croatia,Eintracht Frankfurt,Eintracht Frankfurt,0,0,0
+318,Milan Badelj,M. Badelj,Croatia,Croatia,Fiorentina,Fiorentina,0,0,0
+319,Marko Pjaca,M. Pjaca,Croatia,Croatia,Schalke 04,Juventus,0,0,0
+322,Danijel Subašić,D. Subašić,Croatia,Croatia,Monaco,AS Monaco,0,0,0
+323,Hannes Þór Halldórsson,H. Halldórsson,Iceland,Iceland,Randers,Randers FC,0,0,0
+324,Birkir Már Sævarsson,B. Sævarsson,Iceland,Iceland,Valur,Hammarby IF,0,0,0
+325,Samúel Friðjónsson,S. Friðjónsson,Iceland,Iceland,Vålerenga,Vålerenga Fotball,0,0,0
+326,Albert Guðmundsson,A. Guðmundsson,Iceland,Iceland,PSV Eindhoven,PSV,0,0,0
+327,Sverrir Ingi Ingason,S. Ingason,Iceland,Iceland,Rostov,FC Rostov,0,0,0
+328,Ragnar Sigurðsson,R. Sigurðsson,Iceland,Iceland,Rostov,Rubin Kazan,0,0,0
+329,Jóhann Berg Guðmundsson,J. Guðmundsson,Iceland,Iceland,Burnley,Burnley,0,0,0
+330,Birkir Bjarnason,B. Bjarnason,Iceland,Iceland,Aston Villa,Aston Villa,0,0,0
+331,Björn Bergmann Sigurðarson,B. Sigurðarson,Iceland,Iceland,Rostov,Molde FK,0,0,0
+332,Gylfi Sigurðsson,G. Sigurðsson,Iceland,Iceland,Everton,Everton,0,0,0
+333,Alfreð Finnbogason,A. Finnbogason,Iceland,Iceland,FC Augsburg,FC Augsburg,0,0,0
+335,Rúnar Alex Rúnarsson,R. Rúnarsson,Iceland,Iceland,Nordsjælland,FC Nordsjælland,0,0,0
+336,Kári Árnason,K. Árnason,Iceland,Iceland,Aberdeen,Aberdeen,0,0,0
+338,Ólafur Ingi Skúlason,O. Skúlason,Iceland,Iceland,Kardemir Karabükspor,Kardemir Karabükspor,0,0,0
+339,Aron Gunnarsson (captain),A. Gunnarsson,Iceland,Iceland,Cardiff City,Cardiff City,0,0,0
+340,Hörður Björgvin Magnússon,H. Magnússon,Iceland,Iceland,Bristol City,Bristol City,0,0,0
+341,Rúrik Gíslason,R. Gíslason,Iceland,Iceland,SV Sandhausen,1. FC Nürnberg,0,0,0
+342,Emil Hallfreðsson,E. Hallfreðsson,Iceland,Iceland,Udinese,Udinese,0,0,0
+343,Arnór Ingvi Traustason,A. Traustason,Iceland,Iceland,Malmö,AEK Athens,0,0,0
+344,Jón Daði Böðvarsson,J. Böðvarsson,Iceland,Iceland,Reading,Reading,0,0,0
+345,Ari Freyr Skúlason,A. Skúlason,Iceland,Iceland,Lokeren,Sporting Lokeren,0,0,0
+348,Elderson Echiéjilé,E. Echiéjilé,Nigeria,Nigeria,Cercle Brugge,Medicana Sivasspor,0,0,0
+349,Wilfred Ndidi,O. Ndidi,Nigeria,Nigeria,Leicester City,Leicester City,0,0,0
+350,William Troost-Ekong,W. Troost-Ekong,Nigeria,Nigeria,Bursaspor,Bursaspor,0,0,0
+351,Leon Balogun,L. Balogun,Nigeria,Nigeria,Mainz 05,1. FSV Mainz 05,0,0,0
+352,Ahmed Musa,A. Musa,Nigeria,Nigeria,CSKA Moscow,Leicester City,0,0,0
+353,Oghenekaro Etebo,P. Etebo,Nigeria,Nigeria,Las Palmas,CD Feirense,0,0,0
+356,Victor Moses,V. Moses,Nigeria,Nigeria,Chelsea,Chelsea,0,0,0
+357,Shehu Abdullahi,S. Abdullahi,Nigeria,Nigeria,Bursaspor,Eintracht Braunschweig,0,0,0
+359,Kelechi Iheanacho,K. Iheanacho,Nigeria,Nigeria,Leicester City,Leicester City,0,0,0
+362,Ogenyi Onazi,O. Onazi,Nigeria,Nigeria,Trabzonspor,Trabzonspor,0,0,0
+363,Alex Iwobi,A. Iwobi,Nigeria,Nigeria,Arsenal,Arsenal,0,0,0
+365,Chidozie Awaziem,C. Awaziem,Nigeria,Nigeria,Nantes,FC Nantes,0,0,0
+367,Kenneth Omeruo,K. Omeruo,Nigeria,Nigeria,Kasımpaşa,Kasimpaşa SK,0,0,0
+369,Alisson,Alisson,Brazil,Brazil,Roma,Roma,0,0,0
+370,Thiago Silva,Thiago Silva,Brazil,Brazil,Paris Saint-Germain,Paris Saint-Germain,0,0,0
+371,Miranda,Miranda,Brazil,Brazil,Inter Milan,Inter,0,0,0
+373,Casemiro,Casemiro,Brazil,Brazil,Real Madrid,Real Madrid CF,0,0,0
+374,Filipe Luís,Filipe Luís,Brazil,Brazil,Atlético Madrid,Atlético Madrid,0,0,0
+375,Douglas Costa,Douglas Costa,Brazil,Brazil,Juventus,Juventus,0,0,0
+376,Renato Augusto,Renato Augusto,Brazil,Brazil,Beijing Sinobo Guoan,NA,0,0,0
+377,Gabriel Jesus,Gabriel Jesus,Brazil,Brazil,Manchester City,Manchester City,0,0,0
+378,Neymar,Neymar,Brazil,Brazil,Paris Saint-Germain,Paris Saint-Germain,0,0,0
+379,Philippe Coutinho,Coutinho,Brazil,Brazil,Barcelona,Liverpool,0,0,0
+380,Marcelo,Marcelo,Brazil,Brazil,Real Madrid,Real Madrid CF,0,0,0
+381,Marquinhos,Marquinhos,Brazil,Brazil,Paris Saint-Germain,Paris Saint-Germain,0,0,0
+382,Danilo,Danilo,Brazil,Brazil,Manchester City,Udinese,0,0,0
+383,Paulinho,Paulinho,Brazil,Brazil,Barcelona,FC Barcelona,0,0,0
+384,Cássio,Cássio,Brazil,Brazil,Corinthians,Rio Ave FC,0,0,0
+385,Fernandinho,Fernandinho,Brazil,Brazil,Manchester City,Manchester City,0,0,0
+386,Fred,Fred,Brazil,Brazil,Shakhtar Donetsk,Shakhtar Donetsk,0,0,0
+387,Willian,Willian,Brazil,Brazil,Chelsea,Chelsea,0,0,0
+388,Roberto Firmino,Roberto Firmino,Brazil,Brazil,Liverpool,Liverpool,0,0,0
+389,Taison,Taison,Brazil,Brazil,Shakhtar Donetsk,Shakhtar Donetsk,0,0,0
+390,Fagner,Vagner,Brazil,Brazil,Corinthians,Boavista FC,0,0,0
+391,Ederson,Ederson,Brazil,Brazil,Manchester City,Manchester City,0,0,0
+393,Johnny Acosta,B. Acosta,Costa Rica,Costa Rica,Águilas Doradas,SK Brann,0,0,0
+397,Óscar Duarte,O. Duarte,Costa Rica,Costa Rica,Espanyol,RCD Espanyol,0,0,0
+399,Bryan Oviedo,B. Oviedo,Costa Rica,Costa Rica,Sunderland,Sunderland,0,0,0
+402,Johan Venegas,J. Venegas,Costa Rica,Costa Rica,Saprissa,Minnesota Thunder,0,0,0
+403,Joel Campbell,J. Campbell,Costa Rica,Costa Rica,Real Betis,Real Betis Balompié,0,0,0
+408,Yeltsin Tejeda,Y. Tejeda,Costa Rica,Costa Rica,Lausanne,FC Lausanne-Sports,0,0,0
+410,Kendall Waston,K. Waston,Costa Rica,Costa Rica,Vancouver Whitecaps FC,Vancouver Whitecaps FC,0,0,0
+413,Rónald Matarrita,R. Matarrita,Costa Rica,Costa Rica,New York City FC,New York City Football Club,0,0,0
+415,Vladimir Stojković,N. Stojiljković,Serbia,Serbia,Partizan,Kayserispor,0,0,0
+416,Antonio Rukavina,A. Rukavina,Serbia,Serbia,Villarreal,Villarreal CF,0,0,0
+417,Duško Tošić,D. Tošić,Serbia,Serbia,Beşiktaş,Beşiktaş JK,0,0,0
+418,Luka Milivojević,L. Milivojević,Serbia,Serbia,Crystal Palace,Crystal Palace,0,0,0
+419,Uroš Spajić,U. Spajić,Serbia,Serbia,Anderlecht,RSC Anderlecht,0,0,0
+420,Branislav Ivanović,B. Ivanović,Serbia,Serbia,Zenit Saint Petersburg,Zenit St. Petersburg,0,0,0
+421,Andrija Živković,A. Živković,Serbia,Serbia,Benfica,SL Benfica,0,0,0
+422,Aleksandar Prijović,A. Prijović,Serbia,Serbia,PAOK,PAOK Thessaloniki,0,0,0
+423,Aleksandar Mitrović,A. Mitrović,Serbia,Serbia,Fulham,Newcastle United,0,0,0
+424,Dušan Tadić,D. Tadić,Serbia,Serbia,Southampton,Southampton,0,0,0
+425,Aleksandar Kolarov (captain),A. Kolarov,Serbia,Serbia,Roma,Roma,0,0,0
+426,Predrag Rajković,S. Rajković,Serbia,Serbia,Maccabi Tel Aviv,Palermo,0,0,0
+427,Miloš Veljković,M. Veljković,Serbia,Serbia,Werder Bremen,SV Werder Bremen,0,0,0
+429,Nikola Milenković,N. Milenković,Serbia,Serbia,Fiorentina,Fiorentina,0,0,0
+430,Marko Grujić,M. Grujić,Serbia,Serbia,Cardiff City,Liverpool,0,0,0
+431,Filip Kostić,F. Kostić,Serbia,Serbia,Hamburger SV,Hamburger SV,0,0,0
+432,Nemanja Radonjić,N. Radoja,Serbia,Serbia,Red Star Belgrade,RC Celta de Vigo,0,0,0
+433,Luka Jović,L. Jović,Serbia,Serbia,Eintracht Frankfurt,Eintracht Frankfurt,0,0,0
+434,Sergej Milinković-Savić,S. Milinković-Savić,Serbia,Serbia,Lazio,Lazio,0,0,0
+435,Nemanja Matić,N. Matić,Serbia,Serbia,Manchester United,Manchester United,0,0,0
+436,Adem Ljajić,A. Ljajić,Serbia,Serbia,Torino,Torino,0,0,0
+437,Marko Dmitrović,M. Dmitrović,Serbia,Serbia,Eibar,SD Eibar,0,0,0
+438,Yann Sommer,Y. Sommer,Switzerland,Switzerland,Borussia Mönchengladbach,Borussia Mönchengladbach,0,0,0
+439,Stephan Lichtsteiner (captain),S. Lichtsteiner,Switzerland,Switzerland,Juventus,Juventus,0,0,0
+440,François Moubandje,F. Moubandje,Switzerland,Switzerland,Toulouse,Toulouse FC,0,0,0
+441,Nico Elvedi,N. Elvedi,Switzerland,Switzerland,Borussia Mönchengladbach,Borussia Mönchengladbach,0,0,0
+442,Manuel Akanji,M. Akanji,Switzerland,Switzerland,Borussia Dortmund,FC Basel,0,0,0
+443,Michael Lang,M. Lang,Switzerland,Switzerland,Basel,FC Basel,0,0,0
+444,Breel Embolo,B. Embolo,Switzerland,Switzerland,Schalke 04,FC Schalke 04,0,0,0
+445,Remo Freuler,R. Freuler,Switzerland,Switzerland,Atalanta,Atalanta,0,0,0
+446,Haris Seferović,H. Seferović,Switzerland,Switzerland,Benfica,SL Benfica,0,0,0
+447,Granit Xhaka,G. Xhaka,Switzerland,Switzerland,Arsenal,Arsenal,0,0,0
+448,Valon Behrami,V. Behrami,Switzerland,Switzerland,Udinese,Udinese,0,0,0
+449,Yvon Mvogo,Y. Mvogo,Switzerland,Switzerland,RB Leipzig,RB Leipzig,0,0,0
+450,Ricardo Rodríguez,R. Rodríguez,Switzerland,Switzerland,Milan,Milan,0,0,0
+451,Steven Zuber,S. Zuber,Switzerland,Switzerland,1899 Hoffenheim,TSG 1899 Hoffenheim,0,0,0
+452,Blerim Džemaili,B. Džemaili,Switzerland,Switzerland,Bologna,Montreal Impact,0,0,0
+453,Gelson Fernandes,Gelson Fernandes,Switzerland,Switzerland,Eintracht Frankfurt,Eintracht Frankfurt,0,0,0
+454,Denis Zakaria,D. Zakaria,Switzerland,Switzerland,Borussia Mönchengladbach,Borussia Mönchengladbach,0,0,0
+456,Josip Drmić,J. Drmić,Switzerland,Switzerland,Borussia Mönchengladbach,Borussia Mönchengladbach,0,0,0
+457,Johan Djourou,J. Djourou,Switzerland,Switzerland,Antalyaspor,Antalyaspor,0,0,0
+458,Roman Bürki,R. Bürki,Switzerland,Switzerland,Borussia Dortmund,Borussia Dortmund,0,0,0
+460,Xherdan Shaqiri,X. Shaqiri,Switzerland,Switzerland,Stoke City,Stoke City,0,0,0
+461,Manuel Neuer (captain),M. Neuer,Germany,Germany,Bayern Munich,FC Bayern Munich,0,0,0
+462,Marvin Plattenhardt,F. Platte,Germany,Germany,Hertha BSC,SV Darmstadt 98,0,0,0
+463,Jonas Hector,J. Hector,Germany,Germany,1. FC Köln,1. FC Köln,0,0,0
+464,Matthias Ginter,M. Ginter,Germany,Germany,Borussia Mönchengladbach,Borussia Mönchengladbach,0,0,0
+465,Mats Hummels,M. Hummels,Germany,Germany,Bayern Munich,FC Bayern Munich,0,0,0
+466,Sami Khedira,S. Khedira,Germany,Germany,Juventus,Juventus,0,0,0
+467,Julian Draxler,J. Draxler,Germany,Germany,Paris Saint-Germain,Paris Saint-Germain,0,0,0
+468,Toni Kroos,T. Kroos,Germany,Germany,Real Madrid,Real Madrid CF,0,0,0
+469,Timo Werner,T. Werner,Germany,Germany,RB Leipzig,RB Leipzig,0,0,0
+470,Mesut Özil,M. Özil,Germany,Germany,Arsenal,Arsenal,0,0,0
+473,Thomas Müller,T. Müller,Germany,Germany,Bayern Munich,FC Bayern Munich,0,0,0
+474,Leon Goretzka,L. Goretzka,Germany,Germany,Schalke 04,FC Schalke 04,0,0,0
+475,Niklas Süle,N. Süle,Germany,Germany,Bayern Munich,FC Bayern Munich,0,0,0
+476,Antonio Rüdiger,A. Rüdiger,Germany,Germany,Chelsea,Chelsea,0,0,0
+477,Jérôme Boateng,J. Boateng,Germany,Germany,Bayern Munich,FC Bayern Munich,0,0,0
+478,Joshua Kimmich,J. Kimmich,Germany,Germany,Bayern Munich,FC Bayern Munich,0,0,0
+479,Sebastian Rudy,S. Rudy,Germany,Germany,Bayern Munich,FC Bayern Munich,0,0,0
+480,Julian Brandt,J. Brandt,Germany,Germany,Bayer Leverkusen,Bayer 04 Leverkusen,0,0,0
+481,İlkay Gündoğan,I. Gündoğan,Germany,Germany,Manchester City,Manchester City,0,0,0
+482,Marc-André ter Stegen,M. ter Stegen,Germany,Germany,Barcelona,FC Barcelona,0,0,0
+484,José de Jesús Corona,J. Corona,Mexico,Mexico,Cruz Azul,FC Porto,0,0,0
+486,Carlos Salcedo,C. Salcedo,Mexico,Mexico,Eintracht Frankfurt,Eintracht Frankfurt,0,0,0
+489,Jonathan dos Santos,J. dos Santos,Mexico,Mexico,LA Galaxy,LA Galaxy,0,0,0
+492,Raúl Jiménez,R. Jiménez,Mexico,Mexico,Benfica,SL Benfica,0,0,0
+493,Giovani dos Santos,G. dos Santos,Mexico,Mexico,LA Galaxy,LA Galaxy,0,0,0
+499,Héctor Herrera,H. Herrera,Mexico,Mexico,Porto,FC Porto,0,0,0
+500,Jesús Manuel Corona,J. Corona,Mexico,Mexico,Porto,FC Porto,0,0,0
+501,Andrés Guardado (captain),A. Guardado,Mexico,Mexico,Real Betis,Real Betis Balompié,0,0,0
+502,Oribe Peralta,O. Peralta,Mexico,Mexico,América,Club América,0,0,0
+503,Javier Aquino,J. Aquino,Mexico,Mexico,UANL,Tigres U.A.N.L.,0,0,0
+504,Edson Álvarez,E. Álvarez,Mexico,Mexico,América,Club América,0,0,0
+505,Hirving Lozano,H. Lozano,Mexico,Mexico,PSV Eindhoven,PSV,0,0,0
+506,Jesús Gallardo,J. Gallardo,Mexico,Mexico,UNAM,U.N.A.M.,0,0,0
+507,Kim Seung-gyu,Kim Seung Gyu,Korea Republic,Korea Republic,Vissel Kobe,Vissel Kobe,0,0,0
+508,Lee Yong,Lee Yong,Korea Republic,Korea Republic,Jeonbuk Hyundai Motors,Jeonbuk Hyundai Motors,0,0,0
+510,Oh Ban-suk,Oh Ban Suk,Korea Republic,Korea Republic,Jeju United,Jeju United FC,0,0,0
+511,Yun Young-sun,Yun Young Sun,Korea Republic,Korea Republic,Seongnam FC,Sangju Sangmu FC,0,0,0
+512,Park Joo-ho,Park Joo Ho,Korea Republic,Korea Republic,Ulsan Hyundai,Borussia Dortmund,0,0,0
+514,Ju Se-jong,Ju Se Jong,Korea Republic,Korea Republic,Asan Mugunghwa,FC Seoul,0,0,0
+515,Kim Shin-wook,Kim Shin Wook,Korea Republic,Korea Republic,Jeonbuk Hyundai Motors,Jeonbuk Hyundai Motors,0,0,0
+516,Lee Seung-woo,Lee Seung Woo,Korea Republic,Korea Republic,Hellas Verona,Hellas Verona,0,0,0
+517,Hwang Hee-chan,Hwang Hee Chan,Korea Republic,Korea Republic,Red Bull Salzburg,FC Red Bull Salzburg,0,0,0
+518,Kim Min-woo,Kim Min Woo,Korea Republic,Korea Republic,Sangju Sangmu,Suwon Samsung Bluewings,0,0,0
+519,Koo Ja-cheol,Koo Ja Cheol,Korea Republic,Korea Republic,FC Augsburg,FC Augsburg,0,0,0
+520,Hong Chul,Hong Chul,Korea Republic,Korea Republic,Sangju Sangmu,Sangju Sangmu FC,0,0,0
+523,Lee Jae-sung,Lee Jae Sung,Korea Republic,Korea Republic,Jeonbuk Hyundai Motors,Jeonbuk Hyundai Motors,0,0,0
+524,Moon Seon-min,Moon Seon Min,Korea Republic,Korea Republic,Incheon United,Incheon United FC,0,0,0
+526,Jang Hyun-soo,Hwang Hyun Soo,Korea Republic,Korea Republic,FC Tokyo,FC Seoul,0,0,0
+527,Kim Jin-hyeon,Kim Jin Hyeon,Korea Republic,Korea Republic,Cerezo Osaka,Cerezo Osaka,0,0,0
+528,Go Yo-han,Go Yo Han,Korea Republic,Korea Republic,FC Seoul,FC Seoul,0,0,0
+529,Cho Hyun-woo,Cho Hyun Woo,Korea Republic,Korea Republic,Daegu FC,Daegu FC,0,0,0
+530,Robin Olsen,R. Olsen,Sweden,Sweden,Copenhagen,FC København,0,0,0
+531,Mikael Lustig,M. Lustig,Sweden,Sweden,Celtic,Celtic,0,0,0
+532,Victor Lindelöf,V. Lindelöf,Sweden,Sweden,Manchester United,Manchester United,0,0,0
+533,Andreas Granqvist (captain),A. Granqvist,Sweden,Sweden,Krasnodar,FC Krasnodar,0,0,0
+535,Ludwig Augustinsson,L. Augustinsson,Sweden,Sweden,Werder Bremen,SV Werder Bremen,0,0,0
+536,Sebastian Larsson,S. Larsson,Sweden,Sweden,Hull City,Feyenoord,0,0,0
+537,Albin Ekdal,A. Ekdal,Sweden,Sweden,Hamburger SV,Hamburger SV,0,0,0
+538,Marcus Berg,M. Berg,Sweden,Sweden,Al Ain,NA,0,0,0
+539,Emil Forsberg,E. Forsberg,Sweden,Sweden,RB Leipzig,RB Leipzig,0,0,0
+540,John Guidetti,J. Guidetti,Sweden,Sweden,Alavés,RC Celta de Vigo,0,0,0
+542,Gustav Svensson,G. Svensson,Sweden,Sweden,Seattle Sounders FC,Seattle Sounders FC,0,0,0
+543,Filip Helander,F. Helander,Sweden,Sweden,Bologna,Bologna,0,0,0
+544,Oscar Hiljemark,O. Hiljemark,Sweden,Sweden,Genoa,Panathinaikos FC,0,0,0
+545,Emil Krafth,E. Krafth,Sweden,Sweden,Bologna,Bologna,0,0,0
+546,Viktor Claesson,V. Claesson,Sweden,Sweden,Krasnodar,FC Krasnodar,0,0,0
+547,Pontus Jansson,P. Jansson,Sweden,Sweden,Leeds United,Leeds United,0,0,0
+548,Marcus Rohdén,M. Rohdén,Sweden,Sweden,Crotone,Crotone,0,0,0
+549,Ola Toivonen,O. Toivonen,Sweden,Sweden,Toulouse,Toulouse FC,0,0,0
+550,Jimmy Durmaz,J. Durmaz,Sweden,Sweden,Toulouse,Toulouse FC,0,0,0
+551,Isaac Kiese Thelin,I. Kiese Thelin,Sweden,Sweden,Waasland-Beveren,Waasland-Beveren,0,0,0
+552,Kristoffer Nordfeldt,K. Nordfeldt,Sweden,Sweden,Swansea City,Swansea City,0,0,0
+553,Thibaut Courtois,T. Courtois,Belgium,Belgium,Chelsea,Chelsea,0,0,0
+554,Toby Alderweireld,T. Alderweireld,Belgium,Belgium,Tottenham Hotspur,Tottenham Hotspur,0,0,0
+555,Thomas Vermaelen,T. Vermaelen,Belgium,Belgium,Barcelona,FC Barcelona,0,0,0
+556,Vincent Kompany,V. Kompany,Belgium,Belgium,Manchester City,Manchester City,0,0,0
+557,Jan Vertonghen,J. Vertonghen,Belgium,Belgium,Tottenham Hotspur,Tottenham Hotspur,0,0,0
+558,Axel Witsel,A. Witsel,Belgium,Belgium,Tianjin Quanjian,NA,0,0,0
+559,Kevin De Bruyne,K. De Bruyne,Belgium,Belgium,Manchester City,Manchester City,0,0,0
+560,Marouane Fellaini,M. Fellaini,Belgium,Belgium,Manchester United,Manchester United,0,0,0
+561,Romelu Lukaku,R. Lukaku,Belgium,Belgium,Manchester United,Manchester United,0,0,0
+562,Eden Hazard (captain),E. Hazard,Belgium,Belgium,Chelsea,Chelsea,0,0,0
+563,Yannick Carrasco,Y. Carrasco,Belgium,Belgium,Dalian Yifang,Atlético Madrid,0,0,0
+564,Simon Mignolet,S. Mignolet,Belgium,Belgium,Liverpool,Liverpool,0,0,0
+565,Koen Casteels,K. Casteels,Belgium,Belgium,VfL Wolfsburg,VfL Wolfsburg,0,0,0
+566,Dries Mertens,D. Mertens,Belgium,Belgium,Napoli,Napoli,0,0,0
+567,Thomas Meunier,T. Meunier,Belgium,Belgium,Paris Saint-Germain,Paris Saint-Germain,0,0,0
+568,Thorgan Hazard,T. Hazard,Belgium,Belgium,Borussia Mönchengladbach,Borussia Mönchengladbach,0,0,0
+569,Youri Tielemans,Y. Tielemans,Belgium,Belgium,Monaco,AS Monaco,0,0,0
+570,Adnan Januzaj,A. Januzaj,Belgium,Belgium,Real Sociedad,Real Sociedad,0,0,0
+571,Mousa Dembélé,M. Dembélé,Belgium,Belgium,Tottenham Hotspur,Tottenham Hotspur,0,0,0
+572,Dedryck Boyata,D. Boyata,Belgium,Belgium,Celtic,Celtic,0,0,0
+573,Michy Batshuayi,M. Batshuayi,Belgium,Belgium,Borussia Dortmund,Chelsea,0,0,0
+574,Nacer Chadli,N. Chadli,Belgium,Belgium,West Bromwich Albion,West Bromwich Albion,0,0,0
+575,Leander Dendoncker,L. Dendoncker,Belgium,Belgium,Anderlecht,RSC Anderlecht,0,0,0
+576,Jordan Pickford,J. Pickford,England,England,Everton,Everton,0,0,0
+577,Kyle Walker,K. Walker,England,England,Manchester City,Manchester City,0,0,0
+578,Danny Rose,D. Rose,England,England,Tottenham Hotspur,Tottenham Hotspur,0,0,0
+579,Eric Dier,E. Dier,England,England,Tottenham Hotspur,Tottenham Hotspur,0,0,0
+580,John Stones,J. Stones,England,England,Manchester City,Manchester City,0,0,0
+581,Harry Maguire,H. Maguire,England,England,Leicester City,Leicester City,0,0,0
+582,Jesse Lingard,J. Lingard,England,England,Manchester United,Manchester United,0,0,0
+583,Jordan Henderson,J. Henderson,England,England,Liverpool,Liverpool,0,0,0
+584,Harry Kane (captain),H. Kane,England,England,Tottenham Hotspur,Tottenham Hotspur,0,0,0
+585,Raheem Sterling,R. Sterling,England,England,Manchester City,Manchester City,0,0,0
+586,Jamie Vardy,J. Vardy,England,England,Leicester City,Leicester City,0,0,0
+587,Kieran Trippier,K. Trippier,England,England,Tottenham Hotspur,Tottenham Hotspur,0,0,0
+588,Jack Butland,J. Butland,England,England,Stoke City,Stoke City,0,0,0
+589,Danny Welbeck,D. Welbeck,England,England,Arsenal,Arsenal,0,0,0
+590,Gary Cahill,G. Cahill,England,England,Chelsea,Chelsea,0,0,0
+591,Phil Jones,P. Jones,England,England,Manchester United,Manchester United,0,0,0
+593,Ashley Young,A. Young,England,England,Manchester United,Manchester United,0,0,0
+594,Marcus Rashford,M. Rashford,England,England,Manchester United,Manchester United,0,0,0
+595,Dele Alli,D. Alli,England,England,Tottenham Hotspur,Tottenham Hotspur,0,0,0
+596,Ruben Loftus-Cheek,R. Loftus-Cheek,England,England,Crystal Palace,Crystal Palace,0,0,0
+597,Trent Alexander-Arnold,T. Alexander-Arnold,England,England,Liverpool,Liverpool,0,0,0
+598,Nick Pope,N. Pope,England,England,Burnley,Burnley,0,0,0
+601,Harold Cummings,H. Cummings,Panama,Panama,San Jose Earthquakes,San Jose Earthquakes,0,0,0
+602,Fidel Escobar,F. Escobar,Panama,Panama,New York Red Bulls,New York Red Bulls,0,0,0
+609,Armando Cooper,A. Cooper,Panama,Panama,Universidad de Chile,Toronto FC,0,0,0
+611,Adolfo Machado,A. Machado,Panama,Panama,Houston Dynamo,Houston Dynamo,0,0,0
+615,Luis Ovalle,L. Ovalle,Panama,Panama,CD Olimpia,Deportes Tolima,0,0,0
+618,Aníbal Godoy,A. Godoy,Panama,Panama,San Jose Earthquakes,San Jose Earthquakes,0,0,0
+622,Farouk Ben Mustapha,F. Ben Mustapha,Tunisia,Tunisia,Al-Shabab,Al Shabab,0,0,0
+623,Syam Ben Youssef,S. Ben Youssef,Tunisia,Tunisia,Kasımpaşa,Kasimpaşa SK,0,0,0
+624,Yohan Benalouane,Y. Benalouane,Tunisia,Tunisia,Leicester City,Leicester City,0,0,0
+626,Oussama Haddadi,O. Haddadi,Tunisia,Tunisia,Dijon,Dijon FCO,0,0,0
+629,Fakhreddine Ben Youssef,S. Ben Youssef,Tunisia,Tunisia,Al-Ettifaq,Kasimpaşa SK,0,0,0
+632,Dylan Bronn,D. Bronn,Tunisia,Tunisia,Gent,KAA Gent,0,0,0
+638,Ellyes Skhiri,E. Skhiri,Tunisia,Tunisia,Montpellier,Montpellier Hérault SC,0,0,0
+639,Bassem Srarfi,B. Srarfi,Tunisia,Tunisia,Nice,OGC Nice,0,0,0
+644,Naïm Sliti,N. Sliti,Tunisia,Tunisia,Dijon,Dijon FCO,0,0,0
+645,David Ospina,D. Ospina,Colombia,Colombia,Arsenal,Arsenal,0,0,0
+647,Óscar Murillo,J. Murillo,Colombia,Colombia,Pachuca,Valencia CF,0,0,0
+648,Santiago Arias,S. Arias,Colombia,Colombia,PSV Eindhoven,PSV,0,0,0
+649,Wílmar Barrios,W. Barrios,Colombia,Colombia,Boca Juniors,Boca Juniors,0,0,0
+652,Abel Aguilar,A. Aguilar,Colombia,Colombia,Deportivo Cali,Asociacion Deportivo Cali,0,0,0
+654,James Rodríguez,J. Rodríguez,Colombia,Colombia,Bayern Munich,FC Bayern Munich,0,0,0
+655,Juan Cuadrado,J. Cuadrado,Colombia,Colombia,Juventus,Juventus,0,0,0
+657,Yerry Mina,P. Mina,Colombia,Colombia,Barcelona,Asociacion Deportivo Cali,0,0,0
+661,Johan Mojica,J. Mojica,Colombia,Colombia,Girona,Girona CF,0,0,0
+662,Farid Díaz,F. Díaz,Colombia,Colombia,Olimpia,NA,0,0,0
+665,José Izquierdo,J. Izquierdo,Colombia,Colombia,Brighton & Hove Albion,Brighton & Hove Albion,0,0,0
+667,Dávinson Sánchez,D. Sánchez,Colombia,Colombia,Tottenham Hotspur,Tottenham Hotspur,0,0,0
+668,Eiji Kawashima,E. Kawashima,Japan,Japan,Metz,FC Metz,0,0,0
+669,Naomichi Ueda,N. Ueda,Japan,Japan,Kashima Antlers,Kashima Antlers,0,0,0
+670,Gen Shoji,G. Shoji,Japan,Japan,Kashima Antlers,Kashima Antlers,0,0,0
+671,Keisuke Honda,K. Honda,Japan,Japan,Pachuca,Pachuca,0,0,0
+672,Yuto Nagatomo,Y. Nagatomo,Japan,Japan,Galatasaray,Inter,0,0,0
+673,Wataru Endo,W. Endo,Japan,Japan,Urawa Red Diamonds,Urawa Red Diamonds,0,0,0
+674,Gaku Shibasaki,G. Shibasaki,Japan,Japan,Getafe,Getafe CF,0,0,0
+675,Genki Haraguchi,G. Haraguchi,Japan,Japan,Fortuna Düsseldorf,Hertha BSC Berlin,0,0,0
+676,Shinji Okazaki,S. Okazaki,Japan,Japan,Leicester City,Leicester City,0,0,0
+677,Shinji Kagawa,S. Kagawa,Japan,Japan,Borussia Dortmund,Borussia Dortmund,0,0,0
+678,Takashi Usami,T. Usami,Japan,Japan,Fortuna Düsseldorf,Fortuna Düsseldorf,0,0,0
+679,Masaaki Higashiguchi,M. Higashiguchi,Japan,Japan,Gamba Osaka,Gamba Osaka,0,0,0
+680,Yoshinori Mutō,Y. Mutō,Japan,Japan,Mainz 05,1. FSV Mainz 05,0,0,0
+681,Takashi Inui,T. Inui,Japan,Japan,Eibar,SD Eibar,0,0,0
+682,Yuya Osako,Y. Ōsako,Japan,Japan,1. FC Köln,1. FC Köln,0,0,0
+683,Hotaru Yamaguchi,H. Yamaguchi,Japan,Japan,Cerezo Osaka,Cerezo Osaka,0,0,0
+684,Makoto Hasebe (captain),M. Hasebe,Japan,Japan,Eintracht Frankfurt,Eintracht Frankfurt,0,0,0
+685,Ryota Oshima,R. Oshima,Japan,Japan,Kawasaki Frontale,Kawasaki Frontale,0,0,0
+686,Hiroki Sakai,H. Sakai,Japan,Japan,Marseille,Olympique de Marseille,0,0,0
+687,Tomoaki Makino,T. Makino,Japan,Japan,Urawa Red Diamonds,Urawa Red Diamonds,0,0,0
+688,Gōtoku Sakai,G. Sakai,Japan,Japan,Hamburger SV,Hamburger SV,0,0,0
+689,Maya Yoshida,M. Yoshida,Japan,Japan,Southampton,Southampton,0,0,0
+690,Kosuke Nakamura,K. Nakamura,Japan,Japan,Kashiwa Reysol,Kawasaki Frontale,0,0,0
+691,Wojciech Szczęsny,W. Szczęsny,Poland,Poland,Juventus,Juventus,0,0,0
+692,Michał Pazdan,M. Pazdan,Poland,Poland,Legia Warsaw,Legia Warszawa,0,0,0
+693,Artur Jędrzejczyk,A. Jędrzejczyk,Poland,Poland,Legia Warsaw,Legia Warszawa,0,0,0
+694,Thiago Cionek,Thiago Cionek,Poland,Poland,SPAL,Palermo,0,0,0
+695,Jan Bednarek,J. Bednarek,Poland,Poland,Southampton,Southampton,0,0,0
+696,Jacek Góralski,J. Góralski,Poland,Poland,Ludogorets Razgrad,NA,0,0,0
+697,Arkadiusz Milik,A. Milik,Poland,Poland,Napoli,Napoli,0,0,0
+698,Karol Linetty,K. Linetty,Poland,Poland,Sampdoria,Sampdoria,0,0,0
+699,Robert Lewandowski (captain),R. Lewandowski,Poland,Poland,Bayern Munich,FC Bayern Munich,0,0,0
+700,Grzegorz Krychowiak,G. Krychowiak,Poland,Poland,West Bromwich Albion,West Bromwich Albion,0,0,0
+701,Kamil Grosicki,K. Grosicki,Poland,Poland,Hull City,Hull City,0,0,0
+702,Bartosz Białkowski,B. Białkowski,Poland,Poland,Ipswich Town,Ipswich Town,0,0,0
+703,Maciej Rybus,M. Rybus,Poland,Poland,Lokomotiv Moscow,Lokomotiv Moscow,0,0,0
+704,Łukasz Teodorczyk,L. Teodorczyk,Poland,Poland,Anderlecht,RSC Anderlecht,0,0,0
+705,Kamil Glik,K. Glik,Poland,Poland,Monaco,AS Monaco,0,0,0
+706,Jakub Błaszczykowski,J. Błaszczykowski,Poland,Poland,VfL Wolfsburg,VfL Wolfsburg,0,0,0
+707,Sławomir Peszko,S. Peszko,Poland,Poland,Lechia Gdańsk,Lechia Gdańsk,0,0,0
+708,Bartosz Bereszyński,B. Bereszyński,Poland,Poland,Sampdoria,Sampdoria,0,0,0
+709,Piotr Zieliński,P. Zieliński,Poland,Poland,Napoli,Napoli,0,0,0
+710,Łukasz Piszczek,L. Piszczek,Poland,Poland,Borussia Dortmund,Borussia Dortmund,0,0,0
+711,Rafał Kurzawa,R. Kurzawa,Poland,Poland,Górnik Zabrze,Górnik Zabrze,0,0,0
+712,Łukasz Fabiański,L. Fabiański,Poland,Poland,Swansea City,Swansea City,0,0,0
+713,Dawid Kownacki,D. Kownacki,Poland,Poland,Sampdoria,Sampdoria,0,0,0
+714,Abdoulaye Diallo,A. Diallo,Senegal,Senegal,Rennes,Stade Rennais FC,0,0,0
+715,Saliou Ciss,S. Ciss,Senegal,Senegal,Valenciennes,Angers SCO,0,0,0
+716,Kalidou Koulibaly,K. Koulibaly,Senegal,Senegal,Napoli,Napoli,0,0,0
+717,Kara Mbodji,K. Mbodj,Senegal,Senegal,Anderlecht,RSC Anderlecht,0,0,0
+719,Salif Sané,S. Sané,Senegal,Senegal,Hannover 96,Hannover 96,0,0,0
+721,Cheikhou Kouyaté (captain),C. Kouyaté,Senegal,Senegal,West Ham United,West Ham United,0,0,0
+723,Sadio Mané,S. Mané,Senegal,Senegal,Liverpool,Liverpool,0,0,0
+724,Cheikh N'Doye,C. N'Doye,Senegal,Senegal,Birmingham City,Birmingham City,0,0,0
+726,Alfred N'Diaye,A. N'Diaye,Senegal,Senegal,Wolverhampton Wanderers,Wolverhampton Wanderers,0,0,0
+727,Moussa Konaté,M. Konaté,Senegal,Senegal,Amiens,Amiens SC Football,0,0,0
+728,Diafra Sakho,D. Sakho,Senegal,Senegal,Rennes,West Ham United,0,0,0
+729,Khadim N'Diaye,A. N'Diaye,Senegal,Senegal,Horoya,Wolverhampton Wanderers,0,0,0
+730,Badou Ndiaye,Badou Ndiaye,Senegal,Senegal,Stoke City,Galatasaray SK,0,0,0
+731,Ismaïla Sarr,I. Sarr,Senegal,Senegal,Rennes,Stade Rennais FC,0,0,0
+734,Lamine Gassama,L. Gassama,Senegal,Senegal,Alanyaspor,Alanyaspor,0,0,0
+736,Alfred Gomis,A. Gomis,Senegal,Senegal,SPAL,Ferrara (SPAL),0,0,0
+271,André Carrillo,A. Carrillo,Peru,Peru,Watford,Watford,0.03571428571428581,0,0.017857142857142905
+541,Karl-Johan Johnsson,K. Johnsson,Sweden,Sweden,Guingamp,En Avant de Guingamp,0.03571428571428581,0,0.017857142857142905
+61,Abdullah Al-Khaibari,A. Al Khaibari,Saudi Arabia,Saudi Arabia,Al-Shabab,Al Hilal,0.03703703703703709,0,0.018518518518518545
+81,Martín Campaña,M. Campaña,Uruguay,Uruguay,Independiente,Independiente,0.03703703703703709,0,0.018518518518518545
+278,Gabriel Mercado,G. Mercado,Argentina,Argentina,Sevilla,Sevilla FC,0.03703703703703709,0,0.018518518518518545
+664,Juan Fernando Quintero,J. Quintero,Colombia,Colombia,River Plate,Independiente Medellín,0.03703703703703709,0,0.018518518518518545
+666,José Fernando Cuadrado,J. Cuadrado,Colombia,Colombia,Once Caldas,Juventus,0.03703703703703709,0,0.018518518518518545
+78,Luis Suárez,L. Suárez,Uruguay,Uruguay,Barcelona,FC Barcelona,0.038461538461538436,0,0.019230769230769218
+258,Miguel Araujo,M. Araujo,Peru,Peru,Alianza Lima,NA,0.038461538461538436,0,0.019230769230769218
+295,Sergio Agüero,S. Agüero,Argentina,Argentina,Manchester City,Manchester City,0.038461538461538436,0,0.019230769230769218
+491,Marco Fabián,M. Fabián,Mexico,Mexico,Eintracht Frankfurt,Eintracht Frankfurt,0.038461538461538436,0,0.019230769230769218
+498,Héctor Moreno,H. Moreno,Mexico,Mexico,Real Sociedad,Roma,0.038461538461538436,0,0.019230769230769218
+534,Martin Olsson,M. Olsson,Sweden,Sweden,Swansea City,Swansea City,0.038461538461538436,0,0.019230769230769218
+603,Román Torres,R. Torres,Panama,Panama,Seattle Sounders FC,Seattle Sounders FC,0.038461538461538436,0,0.019230769230769218
+656,Camilo Vargas,C. Vargas,Colombia,Colombia,Deportivo Cali,Atletico Nacional Medellin,0.038461538461538436,0,0.019230769230769218
+658,Luis Muriel,L. Muriel,Colombia,Colombia,Sevilla,Sevilla FC,0.038461538461538436,0,0.019230769230769218
+162,David de Gea,De Gea,Spain,Spain,Manchester United,Manchester United,0.040000000000000036,0,0.020000000000000018
+223,Jonas Lössl,J. Lössl,Denmark,Denmark,Huddersfield Town,Huddersfield Town,0.040000000000000036,0,0.020000000000000018
+282,Federico Fazio,F. Fazio,Argentina,Argentina,Roma,Roma,0.040000000000000036,0,0.020000000000000018
+284,Marcos Acuña,M. Acuña,Argentina,Argentina,Sporting CP,Sporting CP,0.040000000000000036,0,0.020000000000000018
+392,Keylor Navas,K. Navas,Costa Rica,Costa Rica,Real Madrid,Real Madrid CF,0.040000000000000036,0,0.020000000000000018
+412,Marco Ureña,M. Ureña,Costa Rica,Costa Rica,Los Angeles FC,San Jose Earthquakes,0.040000000000000036,0,0.020000000000000018
+459,Fabian Schär,F. Schär,Switzerland,Switzerland,Deportivo La Coruña,RC Deportivo de La Coruña,0.040000000000000036,0,0.020000000000000018
+472,Kevin Trapp,K. Trapp,Germany,Germany,Paris Saint-Germain,Paris Saint-Germain,0.040000000000000036,0,0.020000000000000018
+485,Hugo Ayala,H. Ayala,Mexico,Mexico,UANL,Tigres U.A.N.L.,0.040000000000000036,0,0.020000000000000018
+488,Diego Reyes,D. Reyes,Mexico,Mexico,Porto,FC Porto,0.040000000000000036,0,0.020000000000000018
+509,Jung Seung-hyun,Jeong Seung Hyun,Korea Republic,Korea Republic,Sagan Tosu,Sagan Tosu,0.040000000000000036,0,0.020000000000000018
+592,Fabian Delph,F. Delph,England,England,Manchester City,Manchester City,0.040000000000000036,0,0.020000000000000018
+53,Salman Al-Faraj,S. Al Faraj,Saudi Arabia,Saudi Arabia,Al-Hilal,Al Hilal,0.04166666666666674,0,0.02083333333333337
+289,Maximiliano Meza,M. Meza,Argentina,Argentina,Independiente,Independiente,0.04166666666666674,0,0.02083333333333337
+718,Idrissa Gueye,I. Gueye,Senegal,Senegal,Everton,Everton,0.04166666666666674,0,0.02083333333333337
+199,Mile Jedinak (captain),M. Jedinák,Australia,Australia,Aston Villa,Aston Villa,0.04347826086956519,0,0.021739130434782594
+50,Ali Al-Bulaihi,A. Al Bulayhi,Saudi Arabia,Saudi Arabia,Al-Hilal,Al Hilal,0.045454545454545414,0,0.022727272727272707
+83,Lucas Torreira,L. Torreira,Uruguay,Uruguay,Sampdoria,Sampdoria,0.06896551724137934,0,0.03448275862068967
+253,Alphonse Areola,A. Areola,France,France,Paris Saint-Germain,Paris Saint-Germain,0.07407407407407418,0,0.03703703703703709
+294,Eduardo Salvio,E. Salvio,Argentina,Argentina,Benfica,SL Benfica,0.07407407407407418,0,0.03703703703703709
+366,Tyronne Ebuehi,T. Ebuehi,Nigeria,Nigeria,ADO Den Haag,ADO Den Haag,0.07407407407407418,0,0.03703703703703709
+607,Gabriel Torres,G. Torres,Panama,Panama,Huachipato,FC Lausanne-Sports,0.07407407407407418,0,0.03703703703703709
+70,Fernando Muslera,F. Muslera,Uruguay,Uruguay,Galatasaray,Galatasaray SK,0.07692307692307687,0,0.038461538461538436
+252,Benjamin Mendy,B. Mendy,France,France,Manchester City,Manchester City,0.07692307692307687,0,0.038461538461538436
+272,Yoshimar Yotún,Y. Yotún,Peru,Peru,Orlando City,Orlando City Soccer Club,0.07692307692307687,0,0.038461538461538436
+490,Miguel Layún,M. Layún,Mexico,Mexico,Sevilla,FC Porto,0.07692307692307687,0,0.038461538461538436
+659,Mateus Uribe,M. Uribe,Colombia,Colombia,América,Club América,0.07692307692307687,0,0.038461538461538436
+68,Mohammed Al-Owais,M. Al Owais,Saudi Arabia,Saudi Arabia,Al-Ahli,Al Ahli,0.07999999999999996,0,0.03999999999999998
+292,Marcos Rojo,M. Rojo,Argentina,Argentina,Manchester United,Manchester United,0.07999999999999996,0,0.03999999999999998
+471,Marco Reus,M. Reus,Germany,Germany,Borussia Dortmund,Borussia Dortmund,0.07999999999999996,0,0.03999999999999998
+13,Mohamed Abdel-Shafy,M. Abdul Shafy,Egypt,Egypt,Al-Fateh,Al Ahli,0.08333333333333337,0,0.041666666666666685
+28,Andrei Semyonov,A. Semenov,Russia,Russia,Akhmat Grozny,Terek Grozny,0.08333333333333337,0,0.041666666666666685
+207,Tom Rogic,T. Rogić,Australia,Australia,Celtic,Celtic,0.08333333333333337,0,0.041666666666666685
+360,Joel Obi,J. Obi,Nigeria,Nigeria,Torino,Torino,0.08333333333333337,0,0.041666666666666685
+62,Housain Al-Mogahwi,H. Al Moqahwi,Saudi Arabia,Saudi Arabia,Al-Ahli,Al Ahli,0.08695652173913049,0,0.043478260869565244
+245,Steven Nzonzi,S. N'Zonzi,France,France,Sevilla,Sevilla FC,0.09090909090909083,0,0.045454545454545414
+105,Mohammad Reza Khanzadeh,M. Mohammadi,Iran,Iran,Padideh,Terek Grozny,0,0.04999999999999993,0.024999999999999967
+346,Ikechukwu Ezenwa,P. Eze,Nigeria,Nigeria,Enyimba,Atiker Konyaspor,0,0.052631578947368474,0.026315789473684237
+337,Hólmar Örn Eyjólfsson,E. Ómarsson,Iceland,Iceland,Levski Sofia,IFK Göteborg,0,0.05555555555555558,0.02777777777777779
+85,Maxi Pereira,H. Pereira,Uruguay,Uruguay,Porto,Club Atlético Tigre,0,0.08695652173913049,0.043478260869565244
+732,M'Baye Niang,S. Niang,Senegal,Senegal,Torino,La Berrichonne de Châteauroux,0,0.08695652173913049,0.043478260869565244
+129,Mbark Boussoufa,S. Boufal,Morocco,Morocco,Al-Jazira,Southampton,0,0.09090909090909083,0.045454545454545414
+358,Simeon Nwankwo,Simy,Nigeria,Nigeria,Crotone,Crotone,0,0.09999999999999998,0.04999999999999999
+74,Carlos Sánchez,V. Sánchez,Uruguay,Uruguay,Monterrey,Houston Dynamo,0,0.125,0.0625
+401,Bryan Ruiz (captain),J. Ruiz,Costa Rica,Costa Rica,Sporting CP,Al Fayha,0,0.1428571428571429,0.07142857142857145
+642,Hamdi Nagguez,K. Haggui,Tunisia,Tunisia,Zamalek,FC St. Gallen,0,0.1428571428571429,0.07142857142857145
+394,Giancarlo González,G. González,Costa Rica,Costa Rica,Bologna,Bologna,0.03571428571428581,0.03571428571428581,0.03571428571428581
+80,Cristhian Stuani,C. Stuani,Uruguay,Uruguay,Girona,Girona CF,0.040000000000000036,0.045454545454545414,0.042727272727272725
+72,Diego Godín (captain),D. Godín,Uruguay,Uruguay,Atlético Madrid,Atlético Madrid,0.040000000000000036,0.04761904761904767,0.043809523809523854
+63,Taisir Al-Jassim,H. Al Jasim,Saudi Arabia,Saudi Arabia,Al-Ahli,Al Fateh,0.04166666666666674,0.04761904761904767,0.044642857142857206
+280,Cristian Ansaldi,C. Ansaldi,Argentina,Argentina,Torino,Torino,0.07407407407407418,0.04347826086956519,0.058776167471819685
+651,Carlos Bacca,C. Bacca,Colombia,Colombia,Villarreal,Villarreal CF,0.07692307692307687,0.04347826086956519,0.06020066889632103
+251,Lucas Hernández,L. Hernández,France,France,Atlético Madrid,Atlético Madrid,0.06666666666666665,0.07407407407407418,0.07037037037037042
+76,Cristian Rodríguez,C. Rodríguez,Uruguay,Uruguay,Peñarol,NA,0.06896551724137934,0.07999999999999996,0.07448275862068965
+494,Carlos Vela,C. Vela,Mexico,Mexico,Los Angeles FC,Real Sociedad,0.11538461538461531,0.04761904761904767,0.08150183150183149
+214,William Kvist,W. Kvist,Denmark,Denmark,Copenhagen,FC København,0.11111111111111116,0.07999999999999996,0.09555555555555556
+407,Cristian Gamboa,C. Gamboa,Costa Rica,Costa Rica,Celtic,Celtic,0.11111111111111116,0.07999999999999996,0.09555555555555556
+355,John Obi Mikel (captain),J. Obi,Nigeria,Nigeria,Tianjin TEDA,Torino,0.04347826086956519,0.1499999999999999,0.09673913043478255
+411,David Guzmán,D. Guzman,Costa Rica,Costa Rica,Portland Timbers,Portland Timbers,0.16000000000000003,0.04166666666666674,0.10083333333333339
+663,Miguel Borja,C. Borja,Colombia,Colombia,Palmeiras,Corporación Club Deportivo Tuluá,0.07692307692307687,0.13043478260869568,0.10367892976588627
+268,Christian Ramos,C. Ramos,Peru,Peru,Veracruz,NA,0.07999999999999996,0.13043478260869568,0.10521739130434782
+257,Anderson Santamaría,A. Santamaria,Peru,Peru,Puebla,NA,0.1724137931034483,0.040000000000000036,0.10620689655172416
+263,Jefferson Farfán,J. Farfán,Peru,Peru,Lokomotiv Moscow,Lokomotiv Moscow,0.1428571428571429,0.08333333333333337,0.11309523809523814
+406,Francisco Calvo,F. Calvo,Costa Rica,Costa Rica,Minnesota United,Minnesota Thunder,0.11538461538461531,0.11538461538461531,0.11538461538461531
+298,Cristian Pavón,C. Pavón,Argentina,Argentina,Boca Juniors,Boca Juniors,0.14814814814814814,0.08695652173913049,0.11755233494363931
+35,Andrey Lunyov,A. Lunev,Russia,Russia,Zenit Saint Petersburg,Zenit St. Petersburg,0.16666666666666674,0.07692307692307687,0.1217948717948718
+497,Javier Hernández,J. Hernández,Mexico,Mexico,West Ham United,West Ham United,0.125,0.13793103448275867,0.13146551724137934
+496,Guillermo Ochoa,G. Ochoa,Mexico,Mexico,Standard Liège,Standard de Liège,0.1724137931034483,0.12,0.14620689655172414
+660,Jefferson Lerma,J. Lerma,Colombia,Colombia,Levante,Levante UD,0.1785714285714286,0.125,0.1517857142857143
+163,Dani Carvajal,Carvajal,Spain,Spain,Real Madrid,Real Madrid CF,0,0.038461538461538436,0.019230769230769218
+276,Pedro Aquino,P. Aquino,Peru,Peru,Lobos BUAP,Lobos de la BUAP,0,0.04166666666666674,0.02083333333333337
+650,Carlos Sánchez,C. Sánchez,Colombia,Colombia,Espanyol,Fiorentina,0,0.04166666666666674,0.02083333333333337
+158,Ricardo Quaresma,Quaresma,Portugal,Portugal,Beşiktaş,Beşiktaş JK,0,0.04347826086956519,0.021739130434782594
+201,Daniel Arzani,D. Arzani,Australia,Australia,Melbourne City,Melbourne City,0,0.04347826086956519,0.021739130434782594
+483,Mario Gómez,M. Gómez,Germany,Germany,VfB Stuttgart,VfL Wolfsburg,0,0.04347826086956519,0.021739130434782594
+722,Mame Biram Diouf,M. Diouf,Senegal,Senegal,Stoke City,Stoke City,0,0.04347826086956519,0.021739130434782594
+653,Radamel Falcao (captain),Falcao,Colombia,Colombia,Monaco,AS Monaco,0,0.04761904761904767,0.023809523809523836
+44,Aleksandr Yerokhin,A. Erokhin,Russia,Russia,Zenit Saint Petersburg,Zenit St. Petersburg,0.16000000000000003,0,0.08000000000000002
+52,Mohammed Al-Breik,M. Al Buraik,Saudi Arabia,Saudi Arabia,Al-Hilal,Al Hilal,0.36,0.04999999999999993,0.20499999999999996
+513,Son Heung-min,H. Son,Korea Republic,Korea Republic,Tottenham Hotspur,Tottenham Hotspur,0.09090909090909083,0.26086956521739135,0.1758893280632411
+733,Keita Baldé,K. Baldé Diao,Senegal,Senegal,Monaco,AS Monaco,0.20833333333333337,0.13636363636363635,0.17234848484848486

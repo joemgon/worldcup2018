@@ -302,10 +302,15 @@ results <- results %>%
 
 write_csv(results,"historical_results.csv")
 
+### read in results after they have been created ###
+# results <- read_csv("historical_results.csv")
+
 upsets_tally <- results %>%
   mutate(year = str_extract(edition,'[:digit:]+')) %>%
-  group_by(edition, year) %>%
-  summarize(expected = sum(if_else(result_type == "expected",1,0)), upsets = sum(if_else(result_type == "upset",1,0))) %>%
+  group_by(edition, year, round) %>%
+  summarize(expected = sum(if_else(result_type == "expected",1,0)), 
+            upsets = sum(if_else(result_type == "upset",1,0)),
+            draws = sum(if_else(home_result == "D",1,0))) %>%
   arrange(desc(year)) %>%
   ungroup()
 

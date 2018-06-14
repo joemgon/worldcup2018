@@ -33,6 +33,28 @@ get_teams <- function(tbl_nums) {
     html_node(xpath = paste0('//*[@id="mw-content-text"]/div/h3[',tbl_nums,']')) %>%
     html_text
   
+  #//*[@id="mw-content-text"]/div/div[20]/table
+  
+  #//*[@id="mw-content-text"]/div/div[25]/table
+  
+  #//*[@id="mw-content-text"]/div/table[8]
+  
+  #//*[@id="mw-content-text"]/div/div[28]/table
+  
+  #//*[@id="mw-content-text"]/div/div[29]/table
+  
+  # group a:
+  
+  #//*[@id="mw-content-text"]/div/div[4]/table  4,5,6,7,8,9
+  
+  #//*[@id="mw-content-text"]/div/div[9]/table
+  
+  # group b:
+  
+  #//*[@id="mw-content-text"]/div/div[4]/table
+  
+  l <- str_to_upper(letters[1:8])
+  
   # get squad info
   url %>%
     read_html() %>%

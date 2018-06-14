@@ -47,6 +47,10 @@ all_squads %>%
 
 ##-------------------------------------------------- age by team (2018)
 
+wc18_age <- all_squads %>%
+  filter(Year == 2018) %>%
+  mutate(Country = fct_reorder(Country, desc(Country)), Pos = str_extract(Pos,"[:alpha:]+"))
+
 today <- today()
 
 # elapsed.time <- wc18_age$dob %--% today  ## the `%--%` causing issues
@@ -55,22 +59,25 @@ elapsed.time <- difftime(today, wc18_age$dob, units="days")/365.25
 
 wc18_adj_age <- all_squads %>%
   filter(Year == 2018) %>%
-  mutate(Country = fct_reorder(Country, desc(Country)), Pos = str_extract(Pos,"[:alpha:]+"), adj_age = as.duration(elapsed.time) / dyears(1))
+  mutate(Country = fct_reorder(Country, desc(Country)), Pos = fct_relevel(str_extract(Pos,"[:alpha:]+"), "GK","DF","MF","FW"), adj_age = elapsed.time) %>%
+  arrange(desc(Country),adj_age)
 
 wc18_adj_age_plot <- ggplot(wc18_adj_age, aes(Country, adj_age)) +
-  geom_point(color = "#015386") + 
-  stat_summary(fun.y = min, colour = "#D30208", geom = "point", size = 3, shape=21, show.legend = TRUE) +
-  stat_summary(fun.y = max, colour = "#E5C685", geom = "point", size = 3, shape=21, show.legend = TRUE) +
-  stat_summary(fun.y = mean, colour = "#D30208", geom = "point", size = 3, shape=23, show.legend = TRUE) +
-  stat_summary(fun.y = median, colour = "#E5C685", geom = "point", size = 3, shape=23, show.legend = TRUE) +
+  geom_point(color = "#D30208") + 
+  # scale_color_manual(values = c("#D30208","#E5C685","#171714","#015386")) +
+  stat_summary(fun.y = min, colour = "#0074B1", geom = "point", size = 3, shape=21, show.legend = TRUE) +
+  stat_summary(fun.y = max, colour = "#F5EED5", geom = "point", size = 3, shape=21, show.legend = TRUE) +
+  stat_summary(fun.y = mean, colour = "#0074B1", geom = "point", size = 3, shape=23, show.legend = TRUE) +
+  stat_summary(fun.y = median, colour = "#F5EED5", geom = "point", size = 3, shape=23, show.legend = TRUE) +
   coord_flip() +
   theme(text = element_text(color = "#171714"),
         panel.background = element_blank(), 
         panel.grid.major.x = element_line(color = "#171714", size = 0.15), 
-        legend.position="none",
+        #legend.position="none",
         axis.title = element_blank(),
         plot.title = element_text(hjust = 0.5)) +
   labs(title = "Ages for World Cup 2018 Teams")
+
 
 wc18_adj_age_plot <- ggplotly(wc18_adj_age_plot)
 
@@ -82,23 +89,25 @@ wc18_adj_age_plot
 
 # ------------------------------------ same but by position
 
-wc18_adj_age <- wc18_adj_age %>%
-  mutate(Pos = fct_relevel(Pos, "GK","DF","MF","FW"))
 
+
+# use color = x in geom_point() to create filters in the plotly
 wc18_adj_age_plot <- ggplot(wc18_adj_age, aes(Pos, adj_age)) +
-  geom_point(color = "#015386") + 
+  geom_point(aes(color=Pos)) + 
   stat_summary(fun.y = min, colour = "#D30208", geom = "point", size = 3, shape=21, show.legend = TRUE) +
   stat_summary(fun.y = max, colour = "#E5C685", geom = "point", size = 3, shape=21, show.legend = TRUE) +
   stat_summary(fun.y = mean, colour = "#D30208", geom = "point", size = 3, shape=23, show.legend = TRUE) +
   stat_summary(fun.y = median, colour = "#E5C685", geom = "point", size = 3, shape=23, show.legend = TRUE) +
   coord_flip() +
-  theme(text = element_text(color = "#171714"),
-        panel.background = element_blank(), 
-        panel.grid.major.x = element_line(color = "#171714", size = 0.15), 
-        legend.position="none",
-        axis.title = element_blank(),
-        plot.title = element_text(hjust = 0.5)) +
-  labs(title = "Ages for World Cup 2018 Players by Position")
+  # theme(text = element_text(color = "#171714"),
+  #       panel.background = element_blank(), 
+  #       panel.grid.major.x = element_line(color = "#171714", size = 0.15), 
+  #       legend.position="none",
+  #       axis.title = element_blank(),
+  #       plot.title = element_text(hjust = 0.5)) +
+  labs(title = "Ages for World Cup 2018 Players by Position") +
+  #scale_color_hue("Pos")
+  scale_color_manual(values = c("#015386","#171714","#D30208","#E5C685"))
 
 wc18_adj_age_plot <- ggplotly(wc18_adj_age_plot)
 
@@ -125,7 +134,138 @@ all_squads %>%
   labs(x = "Birth Month", y = "Count of Players born in this Month", title = "WC Players by Birth Month")
 
 
+
+## --------------------------- ##  CAPS  ## ------------------------------- ##
+
+## trend in caps over time
+ggplot(all_squads, aes(x=Year, y=Caps)) +
+  geom_jitter(alpha=0.2, color="#171714") +
+  stat_summary(fun.y=mean, geom="line", size=1, color="#D30208") +
+  stat_summary(fun.y=median, geom="line", size=1, color="#E5C685") +
+  # note on mean line
+  annotate("rect", xmin = 1928, xmax = 1932, ymin = 130, ymax = 140,
+           color = "#D30208", fill = "#D30208") +
+  annotate("text", x = 1934, y = 135, label = "average caps", color="#171714", hjust = 0, size = 4) +
+  # note on median line
+  annotate("rect", xmin = 1928, xmax = 1932, ymin = 110, ymax = 120,
+           color = "#E5C685", fill = "#E5C685") +
+  annotate("text", x = 1934, y = 115, label = "median caps", color="#171714", hjust = 0, size = 4) +
+  theme(panel.background = element_blank(), 
+        panel.grid.major.y = element_line(color = "#171714", size = 0.25), 
+        legend.position="none",
+        plot.title = element_text(hjust = 0.5)) + 
+  labs(x = "Year", y = "Caps", title = "World Cup Player Caps over time")
+
+## ------------------------------------------------- who are players with over 150 caps
+all_squads %>%
+  filter(Caps > 149) %>%
+  select(Year,Player,Pos,Country,Club,Caps) %>%
+  arrange(desc(Year),-Caps) %>%
+  distinct(Player, .keep_all = TRUE) %>%
+  kable()
+
+##-------------------------------------------------- caps by team (2018)
+
+wc18_adj_cap_plot <- ggplot(wc18_adj_age, aes(Country, Caps)) +
+  geom_point(color = "#015386") + 
+  stat_summary(fun.y = min, colour = "#D30208", geom = "point", size = 3, shape=21, show.legend = TRUE) +
+  stat_summary(fun.y = max, colour = "#E5C685", geom = "point", size = 3, shape=21, show.legend = TRUE) +
+  stat_summary(fun.y = mean, colour = "#D30208", geom = "point", size = 3, shape=23, show.legend = TRUE) +
+  stat_summary(fun.y = median, colour = "#E5C685", geom = "point", size = 3, shape=23, show.legend = TRUE) +
+  coord_flip() +
+  theme(text = element_text(color = "#171714"),
+        panel.background = element_blank(), 
+        panel.grid.major.x = element_line(color = "#171714", size = 0.15), 
+        legend.position="none",
+        axis.title = element_blank(),
+        plot.title = element_text(hjust = 0.5)) +
+  labs(title = "Caps for World Cup 2018 Teams")
+
+wc18_adj_cap_plot <- ggplotly(wc18_adj_cap_plot)
+
+text_vec <- paste0("Country: ",wc18_adj_age$Country,"<br />Name: ",wc18_adj_age$Player,"<br />Position: ",wc18_adj_age$Pos,"<br />Caps: ",wc18_adj_age$Caps)
+
+wc18_adj_cap_plot$x$data[1][[1]][[3]] <- text_vec
+
+wc18_adj_cap_plot
+
+
+
+## by club
+
+# count clubs
+all_squads %>%
+  filter(Year == 2018) %>%
+  group_by(Club) %>%
+  tally() %>%
+  arrange(n) %>%
+  top_n(11) %>%
+  ggplot(aes(x = factor(Club,levels=Club,ordered=TRUE), y = n)) +
+  geom_point(color = "#171714", size = 5) +
+  scale_y_continuous(breaks=seq(8,17,1)) +
+  coord_flip() +
+  theme(text = element_text(color = "#171714"),
+        panel.background = element_blank(), 
+        panel.grid.major.x = element_line(color = "#171714", size = 0.15), 
+        legend.position="none",
+        axis.title = element_blank(),
+        plot.title = element_text(hjust = 0.5)) +
+  labs(x = "Clubs", y = "Players in WC Squads", title = "World Cup Player Count by Club (Top 12)")
+
+
+
+
+
+
+
 ## --------------------------- ## DRAFTS ## ------------------------------- ##
+
+
+club_check <- all_squads %>%
+  filter(Year == 2018) %>%
+  group_by(Club) %>%
+  tally() %>%
+  arrange(n) %>%
+  top_n(11) %>%
+  ungroup()
+
+wc_city <- current %>% filter(Club == "Manchester City") %>% arrange(Country)
+
+rm_at_sp <- current %>% filter(Club == "Real Madrid") %>% arrange(Country)
+
+# why mutate and not $
+
+# include images on ggplot
+
+## --------------------------------------------------------------------------- caps by position
+# 
+
+# this plot doesn't really work
+
+# wc18_adj_cap_plot <- ggplot(wc18_adj_age, aes(Pos, Caps)) +
+#   geom_point(color = "#015386") + 
+#   stat_summary(fun.y = min, colour = "#D30208", geom = "point", size = 3, shape=21, show.legend = TRUE) +
+#   stat_summary(fun.y = max, colour = "#E5C685", geom = "point", size = 3, shape=21, show.legend = TRUE) +
+#   stat_summary(fun.y = mean, colour = "#D30208", geom = "point", size = 3, shape=23, show.legend = TRUE) +
+#   stat_summary(fun.y = median, colour = "#E5C685", geom = "point", size = 3, shape=23, show.legend = TRUE) +
+#   coord_flip() +
+#   theme(text = element_text(color = "#171714"),
+#         panel.background = element_blank(),
+#         panel.grid.major.x = element_line(color = "#171714", size = 0.15),
+#         legend.position="none",
+#         axis.title = element_blank(),
+#         plot.title = element_text(hjust = 0.5)) +
+#   labs(title = "Caps for World Cup 2018 Players by Position")
+# 
+# wc18_adj_cap_plot <- ggplotly(wc18_adj_cap_plot)
+# 
+# text_vec <- paste0("Country: ",wc18_adj_age$Country,"<br />Name: ",wc18_adj_age$Player,"<br />Position: ",wc18_adj_age$Pos,"<br />Caps: ",wc18_adj_age$Caps)
+# 
+# wc18_adj_cap_plot$x$data[1][[1]][[3]] <- text_vec
+# 
+# wc18_adj_cap_plot
+
+
 
 # average age
 a1 <- all_squads %>%
@@ -201,9 +341,7 @@ subplot(a1, a2, nrows = 2)
 ### ages by team
 
 
-wc18_age <- all_squads %>%
-  filter(Year == 2018) %>%
-  mutate(Country = fct_reorder(Country, desc(Country)), Pos = str_extract(Pos,"[:alpha:]+"))
+
 
 wc18_age_plot <- ggplot(wc18_age, aes(Country, age)) +
   geom_point(color = "#015386") + 
@@ -247,21 +385,7 @@ all_squads %>%
         legend.position="none") + 
   facet_grid(~Pos)
 
-# count clubs
-all_squads %>%
-  filter(Year == 2018) %>%
-  group_by(Club) %>%
-  tally() %>%
-  arrange(n) %>%
-  top_n(11) %>%
-  ggplot(aes(x = factor(Club,levels=Club,ordered=TRUE), y = n)) +
-  geom_point() +
-  scale_y_continuous(breaks=seq(8,17,1)) +
-  coord_flip() +
-  theme(panel.background = element_blank(), 
-        panel.grid.major.x = element_line(color = "light grey", size = 0.25), 
-        legend.position="none") + 
-  labs(x = "Clubs", y = "Players in WC Squads", title = "WC Player Count by Club (Top 12)")
+
 
 # average caps (over all time) 
 all_squads %>%

@@ -1,0 +1,49 @@
+group,team_a,a_points,team_b,b_points
+Group A,Russia,3,Egypt,0
+Group A,Uruguay,1,Russia,1
+Group A,Egypt,1,Saudi Arabia,1
+Group A,Uruguay,3,Egypt,0
+Group A,Russia,3,Saudi Arabia,0
+Group A,Uruguay,3,Saudi Arabia,0
+Group B,Morocco,3,IR Iran,0
+Group B,Spain,3,Portugal,0
+Group B,Portugal,3,Morocco,0
+Group B,Spain,3,Morocco,0
+Group B,Portugal,3,IR Iran,0
+Group B,Spain,3,IR Iran,0
+Group C,Denmark,3,Peru,0
+Group C,Peru,1,Australia,1
+Group C,Denmark,3,Australia,0
+Group C,France,3,Denmark,0
+Group C,France,3,Australia,0
+Group C,France,3,Peru,0
+Group D,Nigeria,3,Iceland,0
+Group D,Argentina,1,Croatia,1
+Group D,Croatia,3,Nigeria,0
+Group D,Argentina,3,Nigeria,0
+Group D,Croatia,3,Iceland,0
+Group D,Argentina,3,Iceland,0
+Group E,Serbia,3,Costa Rica,0
+Group E,Switzerland,1,Serbia,1
+Group E,Switzerland,3,Costa Rica,0
+Group E,Brazil,3,Switzerland,0
+Group E,Brazil,3,Serbia,0
+Group E,Brazil,3,Costa Rica,0
+Group F,Mexico,3,Sweden,0
+Group F,Sweden,3,Korea Republic,0
+Group F,Germany,3,Mexico,0
+Group F,Mexico,3,Korea Republic,0
+Group F,Germany,3,Sweden,0
+Group F,Germany,3,Korea Republic,0
+Group G,Belgium,3,England,0
+Group G,Tunisia,3,Panama,0
+Group G,England,3,Tunisia,0
+Group G,Belgium,3,Tunisia,0
+Group G,England,3,Panama,0
+Group G,Belgium,3,Panama,0
+Group H,Poland,1,Colombia,1
+Group H,Poland,1,Senegal,1
+Group H,Colombia,1,Senegal,1
+Group H,Poland,1,Japan,1
+Group H,Senegal,1,Japan,1
+Group H,Colombia,1,Japan,1
