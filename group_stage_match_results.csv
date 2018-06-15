@@ -1,49 +1,49 @@
-group,team_a,a_points,team_b,b_points
-Group A,Russia,3,Egypt,0
-Group A,Uruguay,1,Russia,1
-Group A,Egypt,1,Saudi Arabia,1
-Group A,Uruguay,3,Egypt,0
-Group A,Russia,3,Saudi Arabia,0
-Group A,Uruguay,3,Saudi Arabia,0
-Group B,Morocco,3,IR Iran,0
-Group B,Spain,3,Portugal,0
-Group B,Portugal,3,Morocco,0
-Group B,Spain,3,Morocco,0
-Group B,Portugal,3,IR Iran,0
-Group B,Spain,3,IR Iran,0
-Group C,Denmark,3,Peru,0
-Group C,Peru,1,Australia,1
-Group C,Denmark,3,Australia,0
-Group C,France,3,Denmark,0
-Group C,France,3,Australia,0
-Group C,France,3,Peru,0
-Group D,Nigeria,3,Iceland,0
-Group D,Argentina,1,Croatia,1
-Group D,Croatia,3,Nigeria,0
-Group D,Argentina,3,Nigeria,0
-Group D,Croatia,3,Iceland,0
-Group D,Argentina,3,Iceland,0
-Group E,Serbia,3,Costa Rica,0
-Group E,Switzerland,1,Serbia,1
-Group E,Switzerland,3,Costa Rica,0
-Group E,Brazil,3,Switzerland,0
-Group E,Brazil,3,Serbia,0
-Group E,Brazil,3,Costa Rica,0
-Group F,Mexico,3,Sweden,0
-Group F,Sweden,3,Korea Republic,0
-Group F,Germany,3,Mexico,0
-Group F,Mexico,3,Korea Republic,0
-Group F,Germany,3,Sweden,0
-Group F,Germany,3,Korea Republic,0
-Group G,Belgium,3,England,0
-Group G,Tunisia,3,Panama,0
-Group G,England,3,Tunisia,0
-Group G,Belgium,3,Tunisia,0
-Group G,England,3,Panama,0
-Group G,Belgium,3,Panama,0
-Group H,Poland,1,Colombia,1
-Group H,Poland,1,Senegal,1
-Group H,Colombia,1,Senegal,1
-Group H,Poland,1,Japan,1
-Group H,Senegal,1,Japan,1
-Group H,Colombia,1,Japan,1
+date,group,team_a,a_result,team_b,b_result
+2018-06-14T18:00:00Z,Group A,Russia,Win,Saudi Arabia,Lose
+2018-06-15T17:00:00Z,Group A,Uruguay,Win,Egypt,Lose
+2018-06-15T18:00:00Z,Group B,Morocco,Win,IR Iran,Lose
+2018-06-15T21:00:00Z,Group B,Spain,Win,Portugal,Lose
+2018-06-16T13:00:00Z,Group C,France,Win,Australia,Lose
+2018-06-16T16:00:00Z,Group D,Argentina,Win,Iceland,Lose
+2018-06-16T19:00:00Z,Group C,Denmark,Win,Peru,Lose
+2018-06-16T21:00:00Z,Group D,Croatia,Win,Nigeria,Lose
+2018-06-17T16:00:00Z,Group E,Serbia,Win,Costa Rica,Lose
+2018-06-17T18:00:00Z,Group F,Germany,Win,Mexico,Lose
+2018-06-17T21:00:00Z,Group E,Brazil,Win,Switzerland,Lose
+2018-06-18T15:00:00Z,Group F,Sweden,Win,Korea Republic,Lose
+2018-06-18T18:00:00Z,Group G,Belgium,Win,Panama,Lose
+2018-06-18T21:00:00Z,Group G,England,Win,Tunisia,Lose
+2018-06-19T15:00:00Z,Group H,Colombia,Draw,Japan,Draw
+2018-06-19T18:00:00Z,Group H,Poland,Draw,Senegal,Draw
+2018-06-19T21:00:00Z,Group A,Russia,Win,Egypt,Lose
+2018-06-20T15:00:00Z,Group B,Portugal,Win,Morocco,Lose
+2018-06-20T18:00:00Z,Group A,Uruguay,Win,Saudi Arabia,Lose
+2018-06-20T21:00:00Z,Group B,Spain,Win,IR Iran,Lose
+2018-06-21T16:00:00Z,Group C,Denmark,Win,Australia,Lose
+2018-06-21T20:00:00Z,Group C,France,Win,Peru,Lose
+2018-06-21T21:00:00Z,Group D,Argentina,Draw,Croatia,Draw
+2018-06-22T15:00:00Z,Group E,Brazil,Win,Costa Rica,Lose
+2018-06-22T18:00:00Z,Group D,Nigeria,Win,Iceland,Lose
+2018-06-22T20:00:00Z,Group E,Switzerland,Draw,Serbia,Draw
+2018-06-23T15:00:00Z,Group G,Belgium,Win,Tunisia,Lose
+2018-06-23T18:00:00Z,Group F,Mexico,Win,Korea Republic,Lose
+2018-06-23T21:00:00Z,Group F,Germany,Win,Sweden,Lose
+2018-06-24T15:00:00Z,Group G,England,Win,Panama,Lose
+2018-06-24T20:00:00Z,Group H,Senegal,Draw,Japan,Draw
+2018-06-24T21:00:00Z,Group H,Poland,Draw,Colombia,Draw
+2018-06-25T17:00:00Z,Group A,Egypt,Draw,Saudi Arabia,Draw
+2018-06-25T18:00:00Z,Group A,Uruguay,Draw,Russia,Draw
+2018-06-25T20:00:00Z,Group B,Spain,Win,Morocco,Lose
+2018-06-25T21:00:00Z,Group B,Portugal,Win,IR Iran,Lose
+2018-06-26T17:00:00Z,Group C,Peru,Draw,Australia,Draw
+2018-06-26T17:00:00Z,Group C,France,Win,Denmark,Lose
+2018-06-26T21:00:00Z,Group D,Argentina,Win,Nigeria,Lose
+2018-06-26T21:00:00Z,Group D,Croatia,Win,Iceland,Lose
+2018-06-27T17:00:00Z,Group F,Germany,Win,Korea Republic,Lose
+2018-06-27T19:00:00Z,Group F,Mexico,Win,Sweden,Lose
+2018-06-27T21:00:00Z,Group E,Switzerland,Win,Costa Rica,Lose
+2018-06-27T21:00:00Z,Group E,Brazil,Win,Serbia,Lose
+2018-06-28T17:00:00Z,Group H,Poland,Draw,Japan,Draw
+2018-06-28T18:00:00Z,Group H,Colombia,Draw,Senegal,Draw
+2018-06-28T20:00:00Z,Group G,Belgium,Win,England,Lose
+2018-06-28T21:00:00Z,Group G,Tunisia,Win,Panama,Lose

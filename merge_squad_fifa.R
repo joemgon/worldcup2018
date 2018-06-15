@@ -2,6 +2,7 @@
 library(tidyverse)
 library(janitor)
 library(rvest)
+library(lubridate)
 
 # read in data
 all_squads <- read_csv("squads.csv")
@@ -285,6 +286,20 @@ groups <- url %>%
   html_text()
   
 
+## dates
+# <div class="fi-mu__info__datetime" data-utcdate="2018-06-15T12:00:00.000Z">
+# 15 Jun 2018 - 17:00
+# <span class="fi-mu__info__localtime">Local time</span>
+#   </div>
+
+dates <- url %>%
+  read_html() %>%
+  html_nodes(".fi-mu__info__datetime") %>%
+  html_text() %>%
+  str_extract("(?<=\\\r\\\n)[:print:]+") %>%
+  str_trim("left") %>%
+  dmy_hm()
+
 lhs_teams <- all_lhs_teams[seq(1,127,2)]
 rhs_teams <- all_lhs_teams[seq(2,128,2)]
 
@@ -295,7 +310,8 @@ rnk <- rankings %>% select(rank,team,prev_pnts)
 group_matches <- tibble (
   lhs_team = lhs_teams,
   rhs_team = rhs_teams,
-  group = groups
+  group = groups,
+  date = dates
 )
 
 group_matches <- group_matches %>%
@@ -306,7 +322,7 @@ group_matches <- group_matches %>%
   mutate(rank_diff = lhs_rank-rhs_rank,
          o_team = if_else(rank_diff<0, lhs_team, rhs_team),
          d_team = if_else(rank_diff<0, rhs_team, lhs_team)) %>%
-  select(group,o_team,d_team) %>%
+  select(date,group,o_team,d_team) %>%
   inner_join(rnk, by=c("o_team"="team")) %>%
   rename(o_rank = rank, o_points = prev_pnts) %>%
   inner_join(rnk, by=c("d_team"="team")) %>%
@@ -371,8 +387,10 @@ write_csv(group_tables,"group_stage_table.csv")
 #   kable()
 
 group_match_results <- group_matches %>%
-  arrange(group) %>%
-  select(group,team_a,a_points,team_b,b_points)
+  arrange(date) %>%
+  select(date,group,team_a,a_points,team_b,b_points) %>%
+  mutate(a_result = if_else(a_points == 3,"Win","Draw"), b_result = if_else(b_points == 0,"Lose","Draw")) %>%
+  select(date,group,team_a,a_result,team_b,b_result)
 
 write_csv(group_match_results,"group_stage_match_results.csv")
 
@@ -498,6 +516,12 @@ semis <- semis %>%
 
 write_csv(semis, "knockout_semi_matches.csv")
 
+# ## get knockout for blog  (used on the blog)
+# semis %>%
+#   select(o_team,d_team,team_a) %>%
+#   rename(`Team A` = o_team, `Team B` = d_team, Winner = team_a) %>%
+#   kable()
+
 top_rows <- tibble(
   team = semis$team_a,
   points = semis$a_points
@@ -562,6 +586,12 @@ semis2 <- semis2 %>%
          b_points = 0)
 
 write_csv(semis2, "knockout_semi2_matches.csv")
+
+# ## get knockout for blog  (used on the blog)
+# semis2 %>%
+#   select(o_team,d_team,team_a) %>%
+#   rename(`Team A` = o_team, `Team B` = d_team, Winner = team_a) %>%
+#   kable()
 
 top_rows <- tibble(
   team = semis2$team_a,
@@ -630,6 +660,12 @@ final <- final %>%
          b_points = 0)
 
 write_csv(final, "knockout_final_match.csv")
+
+# ## get knockout for blog  (used on the blog)
+# final %>%
+#   select(o_team,d_team,team_a) %>%
+#   rename(`Team A` = o_team, `Team B` = d_team, Winner = team_a) %>%
+#   kable()
 
 top_rows <- tibble(
   team = final$team_a,
