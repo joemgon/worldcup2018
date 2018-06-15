@@ -364,6 +364,12 @@ group_tables <- group_points %>%
 
 write_csv(group_tables,"group_stage_table.csv")
 
+# ## just get group a: (used on the blog)
+# 
+# group_tables %>%
+#   filter(group == "Group A") %>%
+#   kable()
+
 group_match_results <- group_matches %>%
   arrange(group) %>%
   select(group,team_a,a_points,team_b,b_points)
@@ -422,6 +428,12 @@ knockout <- knockout %>%
          b_points = 0)
 
 write_csv(knockout, "knockout_round16_matches.csv")
+
+# ## get knockout for blog  (used on the blog)
+# knockout %>%
+#   select(o_team,d_team,team_a) %>%
+#   rename(`Team A` = o_team, `Team B` = d_team, Winner = team_a) %>%
+#   kable()
 
 top_rows <- tibble(
   team = knockout$team_a,
@@ -644,6 +656,9 @@ ko_tables <- bind_rows(ko_tables,final_tables)
 ko_tables <- ko_tables %>% select(team,round)
 
 write_csv(ko_tables,"knockout_results.csv")
+
+
+#### read back in and slice up
 
 ## 12 draws  --> 6 draw upsets and 4 win upsets
 
